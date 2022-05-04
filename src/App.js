@@ -19,10 +19,13 @@ function App() {
 
     
     
-<div className="top">
-      <Navbar />
-      </div>
+<div className="top"><Navbar /></div>
       
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <br/>
 
 

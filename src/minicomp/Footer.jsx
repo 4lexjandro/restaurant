@@ -5,6 +5,7 @@ import {
     faFacebook,
     faGoogle,
   } from "@fortawesome/free-brands-svg-icons";
+  import Minifooter from './Minifooter'
 
 
 function Footer() {
@@ -15,7 +16,8 @@ function Footer() {
 
   return (
     <div > 
-    <footer class="footer items-center p-4 bg-neutral text-neutral-content">
+    <footer class="footer items-center p-10 bg-neutral text-neutral-content ">
+   
   <div class="items-center grid-flow-col">
     <p>Logo Here</p>
     <p>Copyright © 2022 - All rights reserved</p>
@@ -32,6 +34,8 @@ function Footer() {
       </a>
   </div>
 </footer>
+<Minifooter/>
+
 </div>
   )
 }

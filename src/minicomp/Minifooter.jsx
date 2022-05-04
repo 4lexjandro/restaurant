@@ -9,7 +9,8 @@ function Minifooter() {
 
   return (
     
-    <footer className='footer p-0 bg-pink-900 shadow-xl shadow-orange-600/20 text-primary-content footer-center'>
+    <footer className='footer p-0 bg-pink-900 shadow-xl shadow-orange-600/20 
+    text-primary-content footer-center '>
     
     <div>
       <Social />

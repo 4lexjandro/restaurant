@@ -18,9 +18,11 @@ function App() {
     <Router> 
 
     
-    <div>
-      
+    
+<div className="top">
       <Navbar />
+      </div>
+      
       <br/>
 
 
@@ -32,25 +34,18 @@ function App() {
               <Route path='/home' element={<Home />} />
               <Route path='/notfound' element={<Notfound />} />
              <Route path='/*' element={<Notfound />} />
-              
-             
-             
-
-            
-           </Routes>
+      </Routes>
   
 
 
 
 
-      
-
-<Footer />
+      <div className="bottom"> <Footer /></div>
 
 
-    
-      <Minifooter />
-    </div>
+
+
+
     </Router>
   );
 }

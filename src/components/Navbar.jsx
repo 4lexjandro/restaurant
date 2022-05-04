@@ -50,10 +50,11 @@ const Navbar = () => {
      return (
 
 
-    <div className="flex-1 px-8 mx-8 ">
-    <header class="sticky top-0 z-30 w-full px-2 py-3 bg-pink-900 shadow-xl shadow-orange-600/20 sm:px-1 ">
+    <div class="flex-1 px-8 mx-8 ">
+    <header class="sticky top-0 z-30 w-full px-1 py-1 bg-pink-900 shadow-xl shadow-orange-600/20 sm:px-1 ">
     <div class="flex items-center justify-between mx-auto max-w-10xl">
     <div class="flex-1">
+      
     <a class=" normal-case text-xl" href="/home">
     <img class="" src={background} width="80" height="30"/>
       </a>

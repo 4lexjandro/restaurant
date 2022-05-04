@@ -21,3 +21,21 @@
     background-position: 0 100%
 }
 
+.footNav {
+    width: 100%;
+}
+
+
+
+.bottom{
+    position:fixed;
+    bottom:0;
+    width:100%;
+   }
+
+
+.top{
+    position:fixed;
+    top:0;
+    width:100%;
+   }

@@ -1,5 +1,6 @@
 import {FaHome} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
+import Footer from '../minicomp/Footer'
 
 function NotFound() {
   return (
@@ -16,6 +17,10 @@ function NotFound() {
           </Link>
         </div>
       </div>
+      <div className="bottom"> 
+      <Footer />
+      </div>
+      
     </div>
   )
 }

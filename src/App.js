@@ -28,6 +28,11 @@ function App() {
       <br/>
       <br/>
 
+      
+
+
+     
+
 
       <Routes>
               <Route path='/menu' element={<Menu />} />
@@ -38,12 +43,14 @@ function App() {
               <Route path='/notfound' element={<Notfound />} />
              <Route path='/*' element={<Notfound />} />
       </Routes>
+
+     
   
 
 
 
 
-      <div className="bottom"> <Footer /></div>
+      
 
 
 

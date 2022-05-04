@@ -16,7 +16,9 @@ function Footer() {
 
   return (
     <div > 
-    <footer class="footer items-center p-10 bg-neutral text-neutral-content ">
+      <br/>
+      
+    <footer class="footer items-center p-5 bg-pink-900 shadow-xl shadow-orange-600/20 text-neutral-content ">
    
   <div class="items-center grid-flow-col">
     <p>Logo Here</p>
@@ -34,6 +36,7 @@ function Footer() {
       </a>
   </div>
 </footer>
+<br/>
 <Minifooter/>
 
 </div>

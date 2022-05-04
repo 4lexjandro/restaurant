@@ -1,110 +1,16 @@
-import React from 'react'
+import Footer from '../minicomp/Footer'
 
 function Hours() {
   return (
-    <div>
+    <div className="hours">
       Hours
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-
-      <p>Hours page</p>
-      <p>Hours page</p>
-
-
-      <p>Hours page</p>
-
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-
-      <p>Hours page</p>
-      <p>Hours page</p> 
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-
-      <p>Hours page</p>
-      <p>Hours page</p>
-
-
-      <p>Hours page</p>
-
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-
-      <p>Hours page</p>
-      <p>Hours page</p>
-
-
-      <p>Hours page</p>
-
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-
-      <p>Hours page</p>
-      <p>Hours page</p>
-
-
-      <p>Hours page</p>
-
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-
-      <p>Hours page</p>
-      <p>Hours page</p>
-
-
-      <p>Hours page</p>
-
-      <p>Hours page</p>
-      <p>Hours page</p>
-      <p>Hours page</p>
-
-      <p>Hours page</p>
-      <p>Hours page</p>
-     
+      <br/>
+      Sunday - Saturday 11AM - 1AM
+      <div className="bottom"> 
+      <Footer />
+      </div>
+      
+      
 
       
       </div>

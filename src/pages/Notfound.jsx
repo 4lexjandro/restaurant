@@ -3,13 +3,23 @@ import {Link} from 'react-router-dom'
 import Footer from '../minicomp/Footer'
 import {motion} from "framer-motion"
 
+
 function NotFound() {
   return (
     <div className='hero'>
-      <motion.div animate={{ x: 200,rotate:180 }}   
-transition={{ duration: 2, repeat: Infinity }} >
+     
+<motion.div
+  whileHover={{ scale: 1.2 }}
+  onHoverStart={() => console.log("starts")}
+  onHoverEnd={() => console.log("ends")}
+
+>
   <h1>pow</h1>
 </motion.div>
+
+
+
+
       
       
     </div>

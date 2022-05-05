@@ -2,6 +2,8 @@ import styled from "styled-components";
 import '../styles.css'
 import {Link} from 'react-router-dom'
 import background from '../assets/background.jpg'
+import {motion} from "framer-motion"
+
 
 
       
@@ -25,19 +27,28 @@ const Navbar = () => {
       </a>
      </div>
   <div class="flex-none">
+  <motion.div
+  whileHover={{ scale: 1.2 }}
+  onHoverStart={() => console.log("starts")}
+  onHoverEnd={() => console.log("ends")}
+
+>
   
   <ul class="menu menu-horizontal p-3 gap-7 ">
    <li>
     
 
-
-   
-    
-        <button class="btn-xs btn-link link-underline link-underline-black  ">
+  
+<button class="btn-xs btn-link link-underline link-underline-black  ">
         <Link to='/menu'>
           Menu
         </Link>
         </button>
+
+
+   
+    
+        
       </li>
       
       
@@ -62,6 +73,7 @@ const Navbar = () => {
         
       </li>
     </ul>
+    </motion.div>
         </div>
         </div>
       </header>

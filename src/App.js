@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar'
-import Footer from './minicomp/Footer'
-import Minifooter from './minicomp/Minifooter'
+
+
 import Menu from './pages/Menu'
 import Gallery from './pages/Gallery'
 import Notfound from './pages/Notfound'
@@ -27,6 +27,7 @@ function App() {
       <br/>
       <br/>
       <br/>
+     
 
       
 

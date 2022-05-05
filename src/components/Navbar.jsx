@@ -16,15 +16,19 @@ import {motion} from "framer-motion"
 const Navbar = () => {
 {
      return (
-
-    <div class="flex-1 px-0 mx-0 ">
+      
+    <div class="test">
     <header class="sticky top-0 z-30  px-1 py-1 bg-pink-900 shadow-xl shadow-orange-600/20 sm:px-1 ">
     <div class="flex items-center justify-between mx-auto max-w-10xl">
     <div class="flex-1">
+
+    <motion.div animate={{ scale: [1, 2, 1] }} > 
+    
       
     <a class=" normal-case text-xl" href="/home">
     <img class="" src={background} width="80" height="30"/>
       </a>
+      </motion.div>
      </div>
   <div class="flex-none">
   <motion.div

@@ -18,7 +18,7 @@ function Footer() {
     <div > 
       <br/>
       
-    <footer class="footer items-center p-5 bg-pink-900 shadow-xl shadow-orange-600/20 text-neutral-content ">
+    <footer class="footer items-center p-5 bg-pink-900 shadow-xl shadow-orange-600/20  ">
    
   <div class="items-center grid-flow-col">
     <p>Logo Here</p>

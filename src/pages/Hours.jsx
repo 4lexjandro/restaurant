@@ -1,11 +1,12 @@
 import Footer from '../minicomp/Footer'
 import {motion} from "framer-motion"
 
+
 function Hours() {
   return (
     <div className="hours">
       <motion.div
-  animate={{ x: 40, y: 50, }}
+  animate={{ x: 30, y: 30, }}
   transition={{ ease: "easeOut", duration: 3 }}
 >
       Hours

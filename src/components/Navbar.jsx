@@ -1,4 +1,4 @@
-import styled from "styled-components";
+
 import '../styles.css'
 import {Link} from 'react-router-dom'
 import background from '../assets/background.jpg'
@@ -18,7 +18,7 @@ const Navbar = () => {
      return (
       
     <div class="test">
-    <header class="sticky top-0 z-30  px-1 py-1 bg-pink-900 shadow-xl shadow-orange-600/20 sm:px-1 ">
+    <header class="sticky top-0 z-30 w-full  px-1 py-1 bg-pink-900 shadow-xl shadow-orange-600/20 sm:px-1 ">
     <div class="flex items-center justify-between mx-auto max-w-10xl">
     <div class="flex-1">
 

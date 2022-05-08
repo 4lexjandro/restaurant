@@ -6,6 +6,7 @@ import {
     faGoogle,
   } from "@fortawesome/free-brands-svg-icons";
   import Minifooter from './Minifooter'
+  import background from '../assets/background.jpg'
 
 
 function Footer() {
@@ -21,7 +22,7 @@ function Footer() {
     <footer class="footer items-center p-5 bg-pink-900 shadow-xl shadow-orange-600/20  ">
    
   <div class="items-center grid-flow-col">
-    <p>Logo Here</p>
+    <img src={background} width="60" height ="60"/>
     <p>Copyright © 2022 - All rights reserved</p>
   </div> 
   <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">

@@ -63,18 +63,22 @@ const Navbar = () => {
           Gallery
         </Link>
        </button>
-    
-        
       </li>
+
       <li>
         <button class="btn-xs btn-link link-underline link-underline-black ">
         <Link to='/hours'>
           Hours
         </Link>
         </button>
+      </li>
 
-        
-        
+      <li tabindex="0">
+       <button class="btn-xs btn-link link-underline link-underline-black  ">
+       <Link to='/contact'>
+          Contact
+        </Link>
+       </button>
       </li>
     </ul>
     </motion.div>

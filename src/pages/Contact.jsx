@@ -1,8 +1,19 @@
-import React from 'react'
+import Footer from '../minicomp/Footer'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <div>
+        
+        
+        
+        Contact
+        
+        
+        <div className="bottom"> 
+      <Footer />
+      </div>
+        
+        </div>
   )
 }
 

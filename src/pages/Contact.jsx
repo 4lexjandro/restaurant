@@ -1,12 +1,20 @@
 import Footer from '../minicomp/Footer'
+import {motion} from "framer-motion"
 
 function Contact() {
   return (
-    <div>
+    <div className="hours">
         
         
         
-        Contact
+        <motion.div
+  animate={{ x: 30, y: 30, }}
+  transition={{ ease: "easeOut", duration: 3 }}
+>
+      914-376-0371
+      <br/>
+      20 Park Hill Ave, Yonkers, NY 10701
+      </motion.div>
         
         
         <div className="bottom"> 

@@ -1,5 +1,8 @@
 
 import '../styles.css'
+
+
+
 import {Link} from 'react-router-dom'
 import background from '../assets/background.jpg'
 import {motion} from "framer-motion"

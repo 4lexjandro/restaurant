@@ -1,4 +1,6 @@
 import Navbar from './components/Navbar'
+import './snow.scss'
+
 
 
 import Menu from './pages/Menu'
@@ -17,6 +19,7 @@ function App() {
 
 
   return (
+    <div id="more-snow"> 
     <Router> 
 
     
@@ -62,6 +65,7 @@ function App() {
 
 
     </Router>
+    </div>
   );
 }
 

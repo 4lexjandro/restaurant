@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 function Menu() {
   return (
-    <div>
+    <div class= "hours">
     <main className='container mx-auto px-0 pb-0'>  
 
 

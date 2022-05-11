@@ -19,7 +19,7 @@ function App() {
 
 
   return (
-    <div id="more-snow"> 
+    <div id="snow"> 
     <Router> 
 
     

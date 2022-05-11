@@ -36,6 +36,13 @@
     text-align: center;
     color: black;
 }
+
+.home {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    
+}
  
 
 @import url("https://fonts.googleapis.com/css?family=Merienda+One");

@@ -1,5 +1,5 @@
 
-import '../styles.css'
+import '../styles.scss'
 
 
 
@@ -35,7 +35,7 @@ const Navbar = () => {
      </div>
   <div class="flex-none">
   <motion.div
-  whileHover={{ scale: 1.2 }}
+  whileHover={{ scale: 1.1 }}
   onHoverStart={() => console.log("starts")}
   onHoverEnd={() => console.log("ends")}
 

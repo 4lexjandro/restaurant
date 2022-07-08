@@ -24,14 +24,7 @@ function NotFound() {
       <div className="bottom"> 
       <Footer />
       </div>
-    
-    
   
-
-
-
-      
-      
     </div>
   )
 }

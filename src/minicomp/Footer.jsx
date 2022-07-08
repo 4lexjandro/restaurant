@@ -5,7 +5,6 @@ import {
     faFacebook,
     faGoogle,
   } from "@fortawesome/free-brands-svg-icons";
-  import Minifooter from './Minifooter'
   import background from '../assets/background.jpg'
 
 
@@ -38,7 +37,7 @@ function Footer() {
   </div>
 </footer>
 <br/>
-<Minifooter/>
+
 
 </div>
   )

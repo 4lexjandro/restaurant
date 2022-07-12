@@ -5,10 +5,15 @@ module.exports = {
   theme: {
     
     extend: {
-      
       animation: {
-        'spin-slow': 'spin 10s linear infinite',
-      }
+        fade: 'fadeIn 3s ease-in-out',
+      },
+      keyframes: theme => ({
+        fadeOut: {
+          '0%': { backgroundColor: theme('colors.red.300') },
+          '50%': { backgroundColor: theme('colors.transparent') },
+        },
+      }),
     },
   },
   plugins: [require('daisyui')],

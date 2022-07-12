@@ -8,7 +8,7 @@ function Contact() {
         
         
         <motion.div
-  animate={{ x: 30, y: 30, }}
+  animate={{ x: 0, y: 200, }}
   transition={{ ease: "easeOut", duration: 3 }}
 >
       914-376-0371

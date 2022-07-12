@@ -18,8 +18,10 @@ function Home() {
 
 
         
-  
-<Footer />
+  <div className="bottom">
+  <Footer />
+  </div>
+
       
 
       <br/>

@@ -43,7 +43,7 @@ function Gallery() {
 
 <div className="bottom"> 
       <Footer />
-      </div>
+</div>
 
 
 

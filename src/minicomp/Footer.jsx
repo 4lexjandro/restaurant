@@ -18,11 +18,11 @@ function Footer() {
     <div > 
       <br/>
       
-    <footer class="footer items-center p-1 bg-pink-900 shadow-xl shadow-orange-600/20  ">
+    <footer class="footer items-center p-0 bg-pink-900  ">
    
   <div class="items-center grid-flow-col">
-    <img src={background} width="60" height ="60"/>
-    <p>Copyright © 2022 - All rights reserved</p>
+    <img src={background} alt ="" width="60" height ="60"/>
+    <p>Copyright &copy; {footerYear} All rights reserved</p>
   </div> 
   <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
   

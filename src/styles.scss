@@ -210,33 +210,34 @@ h1 {
 .nav-links {
 	display: grid;
 	grid-template-columns: repeat(4, auto);
-	grid-gap: 10px;
+	grid-gap: 20px;
 	list-style: none;
   
   
 }
 
 .nav-link {
-	text-decoration: none;
+	
 	color: rgb(255, 255, 255);
 	transition: 0.3s all;
-  letter-spacing: 3px;
+  word-spacing: 300px;
+  
   
 }
 
 .nav-link:hover {
 	color: rgb(103, 6, 6);
+  letter-spacing: 5px;
 }
 
 .nav-icon {
 	display: none;
 	font-size: 2rem;
 	cursor: pointer;
+  
 }
 
-.nav-item {
-  word-spacing: 400px;
-}
+
 
 @media only screen and (max-width: 500px) {
 	.navbar {

@@ -13,7 +13,7 @@ function Hours({}) {
       
       
 <motion.div
-  animate={{ x: 0, y: 100, }}
+  animate={{ x: 0, y: 80, }}
   transition={{ ease: "easeOut", duration: 5 }}
 >
 

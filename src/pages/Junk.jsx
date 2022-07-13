@@ -22,15 +22,21 @@ const Junk = () => {
 
 
     
-    <header>
+    <header >
+    <div >
+    <div >
 
     
     
-      
+  
     <a class=" normal-case text-xl" href="/home">
-    <img class="" src={background} width="100" height="100"/>
+    <img class="picture" src={background} width="100" height="30"/>
       </a>
      
+     </div>
+
+
+
   <div class="flex-none">
   
 		<nav className="navbar">
@@ -39,7 +45,6 @@ const Junk = () => {
 				{open ? <FiMinus /> : <FiMenu />}
 			</div>
 			<ul className={open ? 'nav-links active' : 'nav-links'}>
-      
 				<li className="nav-item">
 					<Link to="/" className="nav-link" onClick={closeMenu}>
 						Home
@@ -63,13 +68,12 @@ const Junk = () => {
 			</ul>
       
 		</nav>
-    </div>
     
 
     
-   
+    </div>
+    </div>
     </header>
-    
 	);
 };
 

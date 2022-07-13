@@ -187,10 +187,10 @@ h1 {
 
 // Navbar
 .navbar {
-	height: 80px;
+	height: 50px;
 	width: 100%;
-	background: blue;
-	color: white;
+	background: rgb(103, 6, 6);
+	
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -254,4 +254,11 @@ h1 {
 	.nav-icon {
 		display: flex;
 	}
+}
+
+
+
+.picture {
+  position: absolute;
+  right: 0%;
 }

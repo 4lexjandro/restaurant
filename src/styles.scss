@@ -33,7 +33,10 @@
    }
 
 
-
+.hours {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
 
 .home {
     text-align: center;
@@ -150,8 +153,8 @@ h1 {
 
 .numbers {
 
-text-align: center;
-    color: rgb(255, 255, 255);
+  text-align: center;
+  color: rgb(255, 255, 255);
   -webkit-animation: fadeinout 4s linear forwards;
   animation: fadeinout 4s linear forwards;
   
@@ -165,4 +168,90 @@ text-align: center;
 @keyframes fadeinout {
 0% { opacity: 0; }
 100% { opacity: 2; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Navbar
+.navbar {
+	height: 80px;
+	width: 100%;
+	background: blue;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2rem;
+	font-size: 1.2rem;
+}
+
+.nav-logo {
+	text-decoration: none;
+	color: white;
+}
+
+.nav-links {
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	grid-gap: 20px;
+	list-style: none;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: rgb(167, 145, 145);
+	transition: 0.3s all;
+}
+
+.nav-link:hover {
+	color: rgb(223, 201, 3);
+}
+
+.nav-icon {
+	display: none;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+	.navbar {
+		position: relative;
+	}
+
+	.nav-links {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		top: 80px;
+		left: -100%;
+		transition: 0.5s all;
+	}
+
+	.nav-links.active {
+		background: blue;
+		left: 0;
+	}
+
+	.nav-item {
+		padding: 10px 0;
+	}
+
+	.nav-icon {
+		display: flex;
+	}
 }

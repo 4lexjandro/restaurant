@@ -10,8 +10,6 @@ import {motion} from "framer-motion"
 
 
 
-      
-
 
 
   
@@ -20,6 +18,9 @@ import {motion} from "framer-motion"
 const Navbarr = () => {
 {
      return (
+      
+
+      
       
     <div class="test">
     <header class="sticky top-0 z-30 w-full  px-1 py-1 bg-pink-900 shadow-xl shadow-orange-600/20 sm:px-1 ">
@@ -61,7 +62,7 @@ const Navbarr = () => {
       
       
       
-      <li tabindex="0">
+      <li tabIndex="0">
        <button class="btn-xs btn-link link-underline link-underline-black  ">
        <Link to='/gallery'>
           Gallery
@@ -77,7 +78,7 @@ const Navbarr = () => {
         </button>
       </li>
 
-      <li tabindex="0">
+      <li tabIndex="0">
        <button class="btn-xs btn-link link-underline link-underline-black  ">
        <Link to='/contact'>
           Contact

@@ -1,9 +1,22 @@
 import Footer from '../minicomp/Footer'
 import {motion} from "framer-motion"
 
-function Contact() {
+function Contact({isVisible}) {
+
+
+
+  
+
+
+
+
+
+
   return (
-    <div className="hours">
+    <>
+    
+    
+    <main className="numbers">
         
         
         
@@ -25,19 +38,15 @@ function Contact() {
 >
   
 </motion.div>
-<section className="image_rotate">
+</main>
+
+ 
+ 
+
+
 
   
-<div className="water">
- </div>
- </section>
- <section className="bottle_rotate">
- <div className="water">
- </div>
 
- </section>
- 
- 
 
 
 
@@ -55,7 +64,8 @@ function Contact() {
       <Footer />
       </div>
         
-        </div>
+        
+        </>
   )
 }
 

@@ -33,10 +33,7 @@
    }
 
 
-.hours {
-    text-align: center;
-    color: rgb(255, 255, 255);
-}
+
 
 .home {
     text-align: center;
@@ -96,8 +93,8 @@ h1 {
 .water {
   
   position: relative;
-  width: 190px;
-  height: 190px;
+  width: 80px;
+  height: 80px;
   display: flex;
   justify-content: center;
   background-color: #FBB117;
@@ -140,31 +137,32 @@ h1 {
 }
 
 
-//Contact
-.image_rotate {
-  position: absolute;
-  right: 15%;
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+.numbers {
+
+text-align: center;
+    color: rgb(255, 255, 255);
+  -webkit-animation: fadeinout 3s linear forwards;
+  animation: fadeinout 3s linear forwards;
+  animation-delay: 2s;
 }
 
-.bottle_rotate {
-  position: absolute;
-  right: 15%;
-  
-  
-  
-  
+@-webkit-keyframes fadeinout {
+0% { opacity: 0; }
+100% { opacity: 2; }
 }
 
-@keyframes rotation {
-  from {
-      transform: rotate(0deg);
-  }
-  to {
-      transform: rotate(1c5deg);
-  }
+@keyframes fadeinout {
+0% { opacity: 0; }
+100% { opacity: 2; }
 }

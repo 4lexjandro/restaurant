@@ -3,7 +3,7 @@ import bottle from '../assets/bottle.png'
 import {motion} from "framer-motion"
 
 
-function Hours() {
+function Hours({}) {
   return (
     <div className="hours">
       
@@ -41,7 +41,7 @@ function Hours() {
     }}
   >11AM - 1AM</motion.div>
    <section class="waters">
-    <img   src={bottle} alt="" width="150" height="150"/>
+    <img   src={bottle} alt="" width="250" height="250"/>
     </section>
    
  </motion.div>

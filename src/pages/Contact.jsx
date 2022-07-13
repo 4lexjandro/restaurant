@@ -17,6 +17,38 @@ function Contact() {
       <br/>
       
       </motion.div>
+
+
+      <motion.div
+  animate={{ x: 0, y: -70, }}
+  transition={{ ease: "easeOut", duration: 5 }}
+>
+  
+</motion.div>
+<section className="image_rotate">
+
+  
+<div className="water">
+ </div>
+ </section>
+ <section className="bottle_rotate">
+ <div className="water">
+ </div>
+
+ </section>
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
         
         
         <div className="bottom"> 

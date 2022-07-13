@@ -47,10 +47,8 @@ function Hours() {
  </motion.div>
 
 
-
-
- <div className="water">
- </div>
+ 
+ 
  
 
  

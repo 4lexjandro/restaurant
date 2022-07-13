@@ -22,7 +22,7 @@ function Contact({isVisible}) {
         
         <motion.div
   animate={{ x: 0, y: 200, }}
-  transition={{ ease: "easeOut", duration: 3 }}
+  transition={{ ease: "easeOut", duration: 4 }}
 >
       914-376-0371
       <br/>
@@ -34,7 +34,7 @@ function Contact({isVisible}) {
 
       <motion.div
   animate={{ x: 0, y: -70, }}
-  transition={{ ease: "easeOut", duration: 5 }}
+  transition={{ ease: "easeOut", duration: 4 }}
 >
   
 </motion.div>

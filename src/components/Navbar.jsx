@@ -3,6 +3,7 @@ import '../styles.scss'
 
 
 
+
 import {Link} from 'react-router-dom'
 import background from '../assets/background.jpg'
 import {motion} from "framer-motion"
@@ -16,7 +17,7 @@ import {motion} from "framer-motion"
   
 
 
-const Navbar = () => {
+const Navbarr = () => {
 {
      return (
       
@@ -99,5 +100,5 @@ const Navbar = () => {
 }
 }
 
-export default Navbar;
+export default Navbarr;
 

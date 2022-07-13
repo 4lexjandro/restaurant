@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
-import { FiMenu, FiMinus } from 'react-icons/fi';
+import { FiMenu, FiAlignLeft } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import background from '../assets/background.jpg'
+
+import '../styles.scss'
 import {motion} from "framer-motion"
+
+
 
 
 const Junk = () => {
@@ -18,20 +22,18 @@ const Junk = () => {
 
 	return (
 
-
-
-
-    
     <header >
     <div >
     <div >
 
     
     
-  
     <a class=" normal-case text-xl" href="/home">
-    <img class="picture" src={background} width="100" height="30"/>
+    <img class="picture" alt ="" src={background} width="80" height="30"/>
       </a>
+   
+
+      
      
      </div>
 
@@ -42,7 +44,11 @@ const Junk = () => {
 		<nav className="navbar">
 			
 			<div onClick={handleClick} className="nav-icon">
-				{open ? <FiMinus /> : <FiMenu />}
+				{open ? <FiAlignLeft /> : <FiMenu />}
+        <a class=" normal-case text-xl" href="/home">
+    <img class="picture" alt ="" src={background} width="80" height="30"/>
+      </a>
+
 			</div>
 			<ul className={open ? 'nav-links active' : 'nav-links'}>
 				<li className="nav-item">

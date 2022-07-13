@@ -189,10 +189,14 @@ h1 {
 .navbar {
 	height: 50px;
 	width: 100%;
-	background: rgb(103, 6, 6);
+  
+
+	
 	
 	display: flex;
-	justify-content: space-between;
+  justify-content: space-around;
+  
+  
 	align-items: center;
 	padding: 0 2rem;
 	font-size: 1.2rem;
@@ -200,24 +204,28 @@ h1 {
 
 .nav-logo {
 	text-decoration: none;
-	color: white;
+	color: rgb(185, 6, 6);
 }
 
 .nav-links {
 	display: grid;
 	grid-template-columns: repeat(4, auto);
-	grid-gap: 20px;
+	grid-gap: 10px;
 	list-style: none;
+  
+  
 }
 
 .nav-link {
 	text-decoration: none;
-	color: rgb(167, 145, 145);
+	color: rgb(255, 255, 255);
 	transition: 0.3s all;
+  letter-spacing: 3px;
+  
 }
 
 .nav-link:hover {
-	color: rgb(223, 201, 3);
+	color: rgb(103, 6, 6);
 }
 
 .nav-icon {
@@ -226,9 +234,15 @@ h1 {
 	cursor: pointer;
 }
 
+.nav-item {
+  word-spacing: 400px;
+}
+
 @media only screen and (max-width: 500px) {
 	.navbar {
-		position: relative;
+		position: absolute;
+    display: flex;
+  justify-content: space-between;
 	}
 
 	.nav-links {
@@ -239,11 +253,12 @@ h1 {
 		width: 100%;
 		top: 80px;
 		left: -100%;
-		transition: 0.5s all;
+		transition: 0.2s all;
+    margin-left: -40%;
 	}
 
 	.nav-links.active {
-		background: blue;
+		
 		left: 0;
 	}
 
@@ -253,6 +268,7 @@ h1 {
 
 	.nav-icon {
 		display: flex;
+    color: rgb(103, 6, 6);
 	}
 }
 
@@ -261,4 +277,25 @@ h1 {
 .picture {
   position: absolute;
   right: 0%;
+  top: 0%;
+}
+
+
+.LOGO {
+  
+    position: absolute;
+    right: 0%;
+    top: -10%;
+  
+  
+}
+
+@media only screen and (min-width: 100px) {
+
+.LOGO2 {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+
 }

@@ -1,105 +1,91 @@
-
-import '../styles.scss'
-
-
-
-
-import {Link} from 'react-router-dom'
+import React, { useState } from 'react';
+import { FiMenu, FiAlignLeft } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 import background from '../assets/background.jpg'
+import '../styles.scss'
 import {motion} from "framer-motion"
 
 
 
 
+const Navbar = () => {
+	const [open, setOpen] = useState(false);
 
-  
+	const handleClick = () => {
+		setOpen(!open);
+	};
 
+	const closeMenu = () => {
+		setOpen(false);
+	};
 
-const Navbarr = () => {
-{
-     return (
-      
+	return (
 
-      
-      
-    <div class="test">
-    <header class="sticky top-0 z-30 w-full  px-1 py-1 bg-pink-900 shadow-xl shadow-orange-600/20 sm:px-1 ">
-    <div class="flex items-center justify-between mx-auto max-w-10xl">
-    <div class="flex-1">
+    <header >
+    <div >
+    <div >
 
-    <motion.div animate={{ scale: [1, 2, 1] }} > 
     
-      
+    
     <a class=" normal-case text-xl" href="/home">
-    <img class="" src={background} width="80" height="30"/>
+    <img class="LOGO" alt ="" src={background} width="80" height="30"/>
       </a>
-      </motion.div>
-     </div>
-  <div class="flex-none">
-  <motion.div
-  whileHover={{ scale: 1.1 }}
-  onHoverStart={() => console.log("starts")}
-  onHoverEnd={() => console.log("ends")}
-
->
-  
-  <ul class="menu menu-horizontal p-3 gap-7 ">
-   <li>
-    
-
-  
-<button class="btn-xs btn-link link-underline link-underline-black  ">
-        <Link to='/menu'>
-          Menu
-        </Link>
-        </button>
-
-
+      <a class=" normal-case text-xl" href="/home">
+    <img class="LOGO2" alt ="" src={background} width="80" height="30"/>
+      </a>
    
-    
-        
-      </li>
+
       
-      
-      
-      <li tabIndex="0">
-       <button class="btn-xs btn-link link-underline link-underline-black  ">
-       <Link to='/gallery'>
-          Gallery
-        </Link>
-       </button>
-      </li>
-
-      <li>
-        <button class="btn-xs btn-link link-underline link-underline-black ">
-        <Link to='/hours'>
-          Hours
-        </Link>
-        </button>
-      </li>
-
-      <li tabIndex="0">
-       <button class="btn-xs btn-link link-underline link-underline-black  ">
-       <Link to='/contact'>
-          Contact
-        </Link>
-       </button>
-      </li>
-    </ul>
-    </motion.div>
-        </div>
-        </div>
-      </header>
-
-
-         
-         
      
+     </div>
 
-</div>
-  )
-}
-}
 
-export default Navbarr;
 
+  <div class="flex-none">
+  
+		<nav className="navbar">
+			
+			<div onClick={handleClick} className="nav-icon">
+				{open ? <FiAlignLeft /> : <FiMenu />}
+        <a class=" normal-case text-xl" href="/home">
+    <img class="picture" alt ="" src={background} width="80" height="30"/>
+      </a>
+
+			</div>
+			<ul className={open ? 'nav-links active' : 'nav-links'}>
+				<li className="nav-item">
+          
+					<Link to="/" className="nav-link"  onClick={closeMenu}>
+						Home
+					</Link>
+				</li>
+				<li className="nav-item">
+        
+					<Link to="/gallery" className="nav-link" onClick={closeMenu}>
+						Gallery
+					</Link>
+				</li>
+				<li className="nav-item">
+        
+					<Link to="/hours" className="nav-link" onClick={closeMenu}>
+						Hours
+					</Link>
+				</li>
+				<li className="nav-item">
+					<Link to="/contact" className="nav-link" onClick={closeMenu}>
+						Contact
+					</Link>
+				</li>
+			</ul>
+      
+		</nav>
+    
+
+    
+    </div>
+    </div>
+    </header>
+	);
+};
+
+export default Navbar;

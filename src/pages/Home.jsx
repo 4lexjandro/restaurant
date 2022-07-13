@@ -1,9 +1,19 @@
 import React from 'react'
 import Footer from '../minicomp/Footer'
-
+import styled from "styled-components";
 import {motion} from "framer-motion"
 
-function Home() {
+
+const Home = () => {
+
+  
+  const Bottom = styled.div`
+    position:fixed;
+    bottom:0%;
+    width:100%;
+    color: rgb(255, 255, 255);
+`;
+
   return (
     <div> 
 
@@ -14,13 +24,11 @@ function Home() {
         </motion.div>
         </div>
 
-        {/*Move animated div over to center */}
-
 
         
-  <div className="bottom">
+  <Bottom>
   <Footer />
-  </div>
+  </Bottom>
 
       
 

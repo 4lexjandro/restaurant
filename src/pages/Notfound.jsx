@@ -2,13 +2,23 @@ import {FaHome} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 import Footer from '../minicomp/Footer'
 import {motion} from "framer-motion"
+import styled from "styled-components";
 
-function NotFound() {
+
+const NotFound = () => {
+
+  const Bottom = styled.div`
+    position:fixed;
+    bottom:0%;
+    width:100%;
+    color: rgb(255, 255, 255);
+`;
+
   return (
-    <div className='hero'>
+    <main className='hero'>
      <motion.div animate={{ scale: [2, 2, 1] }} >
 
-<div className="text-center hero-content">
+    <div className="text-center hero-content">
         <div className="max-w-lg">
           <h1 className="text-8xl font-bold mb-8">
           oops!
@@ -20,12 +30,14 @@ function NotFound() {
           </Link>
         </div>
       </div>
+
+
       </motion.div>
-      <div className="bottom"> 
+      <Bottom> 
       <Footer />
-      </div>
+      </Bottom>
   
-    </div>
+    </main>
   )
 }
 

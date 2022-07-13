@@ -2,8 +2,19 @@ import four from '../assets/four.jpg'
 import two from '../assets/two.jpg'
 import five from '../assets/five.jpg'
 import Footer from '../minicomp/Footer'
+import styled from "styled-components";
 
-function Gallery() {
+
+const Gallery = () => {
+
+  const Bottom = styled.div`
+    position:fixed;
+    bottom:0%;
+    width:100%;
+    color: rgb(255, 255, 255);
+`;
+
+
   return (
     <div>
        <div class="carousel w-full">
@@ -41,9 +52,9 @@ function Gallery() {
 
 <br/>
 
-<div className="bottom"> 
+<Bottom> 
       <Footer />
-</div>
+</Bottom>
 
 
 

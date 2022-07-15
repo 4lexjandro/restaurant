@@ -2,7 +2,7 @@
 import Footer from '../minicomp/Footer'
 import styled from "styled-components";
 import "../styles.scss";
-import { motion, MotionConfig } from "framer-motion";
+import { motion } from "framer-motion";
 
 
 

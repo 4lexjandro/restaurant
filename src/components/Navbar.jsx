@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FiMenu, FiAlignLeft } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
-import background from '../assets/background.jpg'
+import pic5 from '../assets/pic5.png'
 import '../styles.scss'
 
 
@@ -27,10 +27,10 @@ const Navbar = () => {
     {/* Two images are placed here to perform the option where, if hamburger
     menu is active, logo stays in the same corner as when burger menu is not present */}
     <a class=" normal-case text-xl" href="/home">
-      <img class="LOGO" alt ="" src={background} width="80" height="30"/>
+      <img class="LOGO" alt ="" src={pic5} width="90" height="30"/>
     </a>
     <a class=" normal-case text-xl" href="/home">
-      <img class="LOGO2" alt ="" src={background} width="80" height="30"/>
+      <img class="LOGO2" alt ="" src={pic5} width="80" height="30"/>
     </a>
   
 
@@ -41,7 +41,7 @@ const Navbar = () => {
 				{open ? <FiAlignLeft /> : <FiMenu />}
 
         <a class=" normal-case text-xl" href="/home">
-    <img class="picture" alt ="" src={background} width="80" height="30"/>
+    <img class="picture" alt ="" src={pic5} width="80" height="30"/>
       </a>
 
 			</div>
@@ -51,8 +51,8 @@ const Navbar = () => {
 			<ul className={open ? 'nav-links active' : 'nav-links'}>
 
 				<li className="nav-item">
-					<Link to="/" className="nav-link"  onClick={closeMenu}>
-						Home
+					<Link to="/menu" className="nav-link"  onClick={closeMenu}>
+						Menu
 					</Link>
 				</li>
 

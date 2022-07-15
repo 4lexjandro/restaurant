@@ -1,86 +1,71 @@
-import React, { useState } from 'react';
-import { FiMenu, FiAlignLeft } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
-import background from '../assets/background.jpg'
+import four from '../assets/four.jpg'
+import two from '../assets/two.jpg'
+import five from '../assets/five.jpg'
+import Footer from '../minicomp/Footer'
+import styled from "styled-components";
 
-import '../styles.scss'
-import {motion} from "framer-motion"
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
 
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import "../styles.scss";
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 
 
 const Junk = () => {
-	const [open, setOpen] = useState(false);
 
-	const handleClick = () => {
-		setOpen(!open);
-	};
-
-	const closeMenu = () => {
-		setOpen(false);
-	};
-
-	return (
-
-    <header >
-    <div >
-    <div >
-
-    
-    
-    <a class=" normal-case text-xl" href="/home">
-    <img class="picture" alt ="" src={background} width="80" height="30"/>
-      </a>
-   
-
-      
-     
-     </div>
+  const Bottom = styled.div`
+    position:fixed;
+    bottom:0%;
+    width:100%;
+    color: rgb(255, 255, 255);
+`;
 
 
+  return (
+	<>
+    <main className='w-4/6 h-4/6 object-right-top absolute ' alt=''>
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide> <img src={four} alt="" /></SwiperSlide>
+        <SwiperSlide> <img src={four} alt="" /></SwiperSlide>
+        <SwiperSlide> <img src={four} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={two} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={two} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={two} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={five} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={five} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={five} alt="" /> </SwiperSlide>
+      </Swiper>
 
-  <div class="flex-none">
-  
-		<nav className="navbar">
-			
-			<div onClick={handleClick} className="nav-icon">
-				{open ? <FiAlignLeft /> : <FiMenu />}
-        <a class=" normal-case text-xl" href="/home">
-    <img class="picture" alt ="" src={background} width="80" height="30"/>
-      </a>
 
-			</div>
-			<ul className={open ? 'nav-links active' : 'nav-links'}>
-				<li className="nav-item">
-					<Link to="/" className="nav-link" onClick={closeMenu}>
-						Home
-					</Link>
-				</li>
-				<li className="nav-item">
-					<Link to="/gallery" className="nav-link" onClick={closeMenu}>
-						Gallery
-					</Link>
-				</li>
-				<li className="nav-item">
-					<Link to="/hours" className="nav-link" onClick={closeMenu}>
-						Hours
-					</Link>
-				</li>
-				<li className="nav-item">
-					<Link to="/contact" className="nav-link" onClick={closeMenu}>
-						Contact
-					</Link>
-				</li>
-			</ul>
-      
-		</nav>
-    
 
-    
-    </div>
-    </div>
-    </header>
-	);
-};
+		</main>
+	  <Bottom>
+		<Footer/>
+	  </Bottom>
+    </>
+  )
+}
 
-export default Junk;
+export default Junk

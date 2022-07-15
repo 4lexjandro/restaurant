@@ -2,7 +2,8 @@ import Navbar from './components/Navbar'
 
 
 
-
+import "swiper/css/bundle";
+import "./styles.scss";
 import Menu from './pages/Menu'
 import Gallery from './pages/Gallery'
 import Notfound from './pages/Notfound'

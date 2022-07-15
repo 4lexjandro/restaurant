@@ -17,8 +17,6 @@ function Menu() {
   return (
     <div class= "hours">
     <main className='container mx-auto px-0 pb-0'>  
-
-
     <motion.div
       initial={{ x: "300", }}
       animate={{ x: "calc(80% - 80%)" }}>

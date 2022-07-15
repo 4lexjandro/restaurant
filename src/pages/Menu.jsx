@@ -8,7 +8,7 @@ function Menu() {
 
   const Bottom = styled.div`
     position:fixed;
-    bottom:0%;
+    bottom:-3%;
     width:100%;
     color: rgb(255, 255, 255);
 `;

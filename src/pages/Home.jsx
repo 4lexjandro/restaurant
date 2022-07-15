@@ -2,7 +2,6 @@
 import Footer from '../minicomp/Footer'
 import styled from "styled-components";
 import "../styles.scss";
-
 import { Suspense, useState } from "react";
 import { motion, MotionConfig, useMotionValue } from "framer-motion";
 import { Shapes } from "./FramerMotion/Shapes";
@@ -18,7 +17,7 @@ const Home = () => {
   
   const Bottom = styled.div`
     position:fixed;
-    bottom:0%;
+    bottom:-3%;
     width:100%;
     color: rgb(255, 255, 255);
 `;
@@ -37,22 +36,15 @@ const resetMousePosition = () => {
 
 
 
+
+
   return (
     <div> 
 
-   
-    <div class="home">
-      <motion.div animate={{ scale: [35, 35, 1] }} >
-        <h1>Welcome!</h1>
-      </motion.div>
-        </div>
-
-
-
 
         {/* 3D Animation */}
-
-        <MotionConfig transition={transition}>
+         
+        <MotionConfig className="play" transition={transition}>
       <motion.button
         ref={ref}
         initial={false}
@@ -103,54 +95,21 @@ const resetMousePosition = () => {
           variants={{ hover: { scale: 0.85 }, press: { scale: 1.1 } }}
           className="label"
         >
-          play
+           <div class="home">
+      <motion.div animate={{ scale: [45, 45, 1] }} >
+        <h1>Welcome</h1>
+        
+      </motion.div>
+        </div>
+        
         </motion.div>
       </motion.button>
     </MotionConfig>
-
-
-
-
-
-
-
-
-
-
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-
-        
+       
   <Bottom>
   <Footer />
   </Bottom>
 
-      
-
-      <br/>
       
 
 

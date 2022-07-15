@@ -25,10 +25,9 @@ const Contact = () => {
       <motion.div
         animate={{ x: 0, y: 200, }}
          transition={{ ease: "easeOut", duration: 3 }}
-      ><p>Order by phone</p>
+      ><p>Click below to order by phone</p>
         <br/>
-          <br/>
-        <a href = "tel:914-376-0371">914 - 376 - 0371</a>
+        <a href = "tel:914-376-0371" class="btn glass">914 - 376 - 0371</a>
           <br/>
           <br/>
         20 Park Hill Ave, Yonkers, NY 10701

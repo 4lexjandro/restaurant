@@ -31,7 +31,7 @@ const Gallery = () => {
 	const Frame = styled.div`
 	display: flex;
   justify-content: center;
-	right: 15%;
+	right: 14%;
 	top: 15%;
   aspect-ratio: 16/9; 
  display: block;

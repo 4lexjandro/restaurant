@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 import styled from "styled-components";
 
 
-function Hours({}) {
+const Hours = () => {
 
 
   const Bottom = styled.div`

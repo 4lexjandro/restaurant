@@ -29,10 +29,17 @@ const Junk = () => {
     color: rgb(255, 255, 255);
 `;
 
+	const Swipers = styled.div`
+	display: flex;
+  	justify-content: center;
+	right: 15%;
+	top: 15%;
+	`;
+
 
   return (
-	<>
-    <main className='w-4/6 h-4/6 object-right-top absolute ' alt=''>
+	<main>
+    <Swipers className='w-4/6 h-4/6 content-center object-cover absolute ' alt=''>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -46,6 +53,7 @@ const Junk = () => {
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
+		
       >
         <SwiperSlide> <img src={four} alt="" /></SwiperSlide>
         <SwiperSlide> <img src={four} alt="" /></SwiperSlide>
@@ -60,11 +68,11 @@ const Junk = () => {
 
 
 
-		</main>
+		</Swipers>
 	  <Bottom>
 		<Footer/>
 	  </Bottom>
-    </>
+    </main>
   )
 }
 

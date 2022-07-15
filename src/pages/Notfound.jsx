@@ -5,6 +5,7 @@ import {motion} from "framer-motion"
 import styled from "styled-components";
 
 
+
 const NotFound = () => {
 
   const Bottom = styled.div`
@@ -21,7 +22,7 @@ const NotFound = () => {
     <div className="text-center hero-content">
         <div className="max-w-lg">
           <h1 className="text-8xl font-bold mb-8">
-          oops!
+          Error
           </h1>
           <p className="text-5xl mb-8">404 - Page Not Found</p>
           <Link to='/' className='btn px-1 py-1 bg-pink-900 shadow-xl shadow-orange-600/20 sm:px-1 btn-lg' >
@@ -30,6 +31,7 @@ const NotFound = () => {
           </Link>
         </div>
       </div>
+
 
 
       </motion.div>

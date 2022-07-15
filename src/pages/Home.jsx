@@ -1,10 +1,13 @@
-import React from 'react'
+
 import Footer from '../minicomp/Footer'
 import styled from "styled-components";
-import {motion} from "framer-motion"
+import "../styles.scss";
+import { motion, MotionConfig } from "framer-motion";
+
 
 
 const Home = () => {
+
 
   
   const Bottom = styled.div`
@@ -14,15 +17,52 @@ const Home = () => {
     color: rgb(255, 255, 255);
 `;
 
+
+
+
   return (
     <div> 
 
    
     <div class="home">
       <motion.div animate={{ scale: [2, 2, 1] }} >
-      <h1>Welcome!</h1>
-        </motion.div>
+        <h1>Welcome!</h1>
+      </motion.div>
         </div>
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
 
 
         

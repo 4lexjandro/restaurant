@@ -12,6 +12,7 @@ import Hours from './pages/Hours'
 import Contact from './pages/Contact'
 import Junk from './pages/Junk'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function App() {

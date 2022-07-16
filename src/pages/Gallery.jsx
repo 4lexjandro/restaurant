@@ -55,9 +55,11 @@ const Gallery = () => {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 9500,
+          delay: 2500,
           disableOnInteraction: false,
         }}
+        removeClippedSubviews={false}
+        scrollEnabled={true}
         pagination={{
           clickable: true,
         }}

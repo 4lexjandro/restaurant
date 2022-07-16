@@ -28,7 +28,7 @@ const Hours = () => {
       
       
 <motion.div
-  animate={{ x: 0, y: 80, }}
+  animate={{ x: 0, y: 60, }}
   transition={{ ease: "easeOut", duration: 5 }}
 >
 <motion.div

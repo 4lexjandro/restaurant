@@ -14,12 +14,14 @@ export function Shapes({ isHover, isPress, mouseX, mouseY }) {
       <Camera mouseX={mouseX} mouseY={mouseY} />
       <MotionConfig transition={transition}>
         <motion.group
+          onClick=""
           center={[0, 0, 0]}
           rotation={[lightRotateX, lightRotateY, 0]}
         >
           <Lights />
         </motion.group>
         <motion.group
+          onClick=""
           initial={false}
           animate={isHover ? "hover" : "rest"}
           dispose={null}

@@ -95,7 +95,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-
+import { FiMenu, FiAlignLeft } from 'react-icons/fi';
 import pic5 from '../assets/pic5.png'
 
 
@@ -134,13 +134,12 @@ const Junk = () => {
         <br/>
 
         
-        <Navbar.Toggle
+		<Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
             updateExpanded(expand ? false : "expanded");
           }}
         >
-         
           <span></span>
           <span></span>
           <span></span>

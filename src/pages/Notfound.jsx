@@ -16,7 +16,7 @@ const NotFound = () => {
 `;
 
   return (
-    <main className='hero'>
+    <main className='hours'>
      <motion.div animate={{ scale: [2, 2, 1] }} >
 
     <div className="text-center hero-content">
@@ -26,8 +26,8 @@ const NotFound = () => {
           </h1>
           <p className="text-5xl mb-8">404 - Page Not Found</p>
           <Link to='/' className='btn px-1 py-1 bg-pink-900 shadow-xl shadow-orange-600/20 sm:px-1 btn-lg' >
-          <FaHome className='mr-2' />
-          Back To Home
+          <FaHome className='hours' />
+          <p className="hours">Back To Home</p>
           </Link>
         </div>
       </div>

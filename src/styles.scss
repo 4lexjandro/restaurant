@@ -184,17 +184,19 @@ h1 {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
+  
 }
 
 .navbar-toggler {
   position: relative !important;
   background-color: transparent !important;
   border-color: transparent !important;
+  right: -30%;
 }
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #b80000 !important;
+  background-color: #7f1d1d !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -261,6 +263,7 @@ h1 {
   color: white !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
+  right: -35%;
   
 }
 
@@ -313,7 +316,7 @@ h1 {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #670d0d;
+  background: #7f1d1d;
   bottom: 1px;
   left: 0;
   z-index: -1;

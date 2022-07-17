@@ -10,7 +10,6 @@ function Menu() {
     position:fixed;
     bottom:-3%;
     width:100%;
-    color: rgb(255, 255, 255);
 `;
 
 

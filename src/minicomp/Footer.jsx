@@ -18,7 +18,7 @@ function Footer() {
     <div > 
       <br/>
       
-    <footer class="footer items-center p-0 bg-pink-900  ">
+    <footer class="footer items-center p-0 bg-red-900  ">
    
   <div class="items-center grid-flow-col ">
     <img src={background} alt ="" width="60" height ="60"/>

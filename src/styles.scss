@@ -456,7 +456,6 @@ button {
   --purple: rgb(103, 6, 6);
   --pink: rgb(133, 0, 0);
   --blue: rgb(168, 1, 1);
-  background-color: rgb(92, 2, 2);
   border-radius: 60px;
   outline: none;
   margin: auto;
@@ -468,6 +467,9 @@ button {
   letter-spacing: -1px;
   position: relative;
   text-align: center;
+  display: block;
+  justify-content: center;
+  right:-30%;
   
 }
 
@@ -584,3 +586,11 @@ button {
 .storeNum {
   color: rgb(0, 0, 0);
 }
+
+
+.menuPage {
+  display: block;
+  
+  width: 60%;
+}
+

@@ -26,7 +26,7 @@ function Menu() {
       <motion.div
         initial={{ x: "300", }}
         animate={{ x: "calc(100% - 99%)" }}>
-        <a href={MENU} without rel="noopener noreferrer" target="_blank" >
+        <a href={MENU} className="menuPage" without rel="noopener noreferrer" target="_blank" >
       <button 
       class=" btn glass w-20 h-10 p-2 bg-pink-900 shadow-xl shadow-orange-600/20 sm:px-1 rounded-md animate-bounce" 
       trailingIcon="picture_as_pdf" 

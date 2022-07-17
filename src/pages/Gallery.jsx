@@ -23,7 +23,7 @@ const Gallery = () => {
 
   const Bottom = styled.div`
     position:fixed;
-    bottom:-10%;
+    bottom:0%;
     width:100%;
     color: rgb(255, 255, 255);
 `;

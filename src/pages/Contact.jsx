@@ -27,7 +27,7 @@ const Contact = () => {
          transition={{ ease: "easeOut", duration: 2 }}
       ><p>Click below to order by phone</p>
         <br/>
-        <a href = "tel:914-376-0371" class="btn glass"><p className="storeNum">914 - 376 - 0371</p></a>
+        <a href = "tel:914-376-0371" className="btn glass"><p className="storeNum">914 - 376 - 0371</p></a>
           <br/>
           <br/>
         20 Park Hill Ave, Yonkers, NY 10701

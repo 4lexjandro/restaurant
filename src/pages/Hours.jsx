@@ -57,7 +57,7 @@ const Hours = () => {
        11AM - 1AM
     </motion.div>
 
-   <section class="waters">
+   <section className="waters">
       <img   src={bottle} alt="" width="250" height="250"/>
    </section>
  </motion.div>

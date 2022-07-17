@@ -99,7 +99,7 @@ const resetMousePosition = () => {
           variants={{ hover: { scale: 0.85 }, press: { scale: 1.1 } }}
           className="label"
         >
-           <div class="home">
+           <div className="home">
       <motion.div animate={{ scale: [45, 45, 1] }} >
         <h1>Welcome</h1>
         
@@ -177,7 +177,7 @@ const resetMousePosition = () => {
           variants={{ hover: { scale: 0.85 }, press: { scale: 1.1 } }}
           className="label"
         >
-           <div class="home">
+           <div className="home">
       <motion.div animate={{ scale: [45, 45, 1] }} >
         <h1>Everyone!</h1>
         

@@ -15,7 +15,7 @@ function Menu() {
 
 
   return (
-    <div class= "hours">
+    <div className= "hours">
     <main className='container mx-auto px-0 pb-0'>  
     <motion.div
       initial={{ x: "300", }}
@@ -28,7 +28,7 @@ function Menu() {
         animate={{ x: "calc(100% - 99%)" }}>
         <a href={MENU} className="menuPage" without rel="noopener noreferrer" target="_blank" >
       <button 
-      class=" btn glass w-20 h-10 p-2 bg-pink-900 shadow-xl shadow-orange-600/20 sm:px-1 rounded-md animate-bounce" 
+      className=" btn glass w-20 h-10 p-2 bg-pink-900 shadow-xl shadow-orange-600/20 sm:px-1 rounded-md animate-bounce" 
       trailingIcon="picture_as_pdf" 
       label="Resume">
         <small className="hours">MENU</small>

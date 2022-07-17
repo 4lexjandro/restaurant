@@ -4,7 +4,6 @@ import five from '../assets/five.jpg'
 import one from '../assets/one.jpg'
 import Footer from '../minicomp/Footer'
 import styled from "styled-components";
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -63,12 +62,6 @@ const Gallery = () => {
     <Swiper
         spaceBetween={30}
         centeredSlides={true}
-        showsPagination={true}
-autoplay={true}
-
-loop={true}
-        loadMinimal
-        loadMinimalSize={2}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,

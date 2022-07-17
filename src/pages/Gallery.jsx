@@ -76,31 +76,31 @@ const Gallery = () => {
       >
         
         <SwiperSlide> 
-            slide a
+            <p>this doesnt work!</p>
         </SwiperSlide>
         <SwiperSlide> 
-            slide b 
+            <p>this doesnt work!</p>
         </SwiperSlide>
         <SwiperSlide> 
-            slide c
+            <p>this doesnt work!</p> 
         </SwiperSlide>
         <SwiperSlide> 
-            slide x
+            <p>this doesnt work!</p> 
         </SwiperSlide>
         <SwiperSlide> 
-            slide 6
+            <p>this doesnt work!</p> 
         </SwiperSlide>
         <SwiperSlide> 
-            slide h
+            <p>this doesnt work!</p> 
         </SwiperSlide>
         <SwiperSlide> 
-            slidel
+            <p>this doesnt work!</p> 
         </SwiperSlide>
         <SwiperSlide> 
-            slidem
+            <p>this doesnt work!</p> 
         </SwiperSlide>
         <SwiperSlide> 
-            slide 247
+            <p>this doesnt work!</p> 
         </SwiperSlide>
         
       </Swiper>

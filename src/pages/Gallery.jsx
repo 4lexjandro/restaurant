@@ -23,7 +23,7 @@ const Gallery = () => {
 
   const Bottom = styled.div`
     position:fixed;
-    bottom:-3%;
+    bottom:-10%;
     width:100%;
     color: rgb(255, 255, 255);
 `;
@@ -32,7 +32,7 @@ const Gallery = () => {
 	display: flex;
   justify-content: center;
 	right: 14%;
-	top: 15%;
+	top: 20%;
   aspect-ratio: 16/9; 
  display: block;
 	`;

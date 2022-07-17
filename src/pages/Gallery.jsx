@@ -76,23 +76,32 @@ const Gallery = () => {
       >
         
         <SwiperSlide> 
-            <img src={one} alt="" /></SwiperSlide>
+            slide a
+        </SwiperSlide>
         <SwiperSlide> 
-            <img src={four} alt="" /></SwiperSlide>
+            slide b 
+        </SwiperSlide>
         <SwiperSlide> 
-            <img src={five} alt="" /> </SwiperSlide>
+            slide c
+        </SwiperSlide>
         <SwiperSlide> 
-            <img src={two} alt="" /> </SwiperSlide>
+            slide x
+        </SwiperSlide>
         <SwiperSlide> 
-            <img src={four} alt="" /> </SwiperSlide>
+            slide 6
+        </SwiperSlide>
         <SwiperSlide> 
-            <img src={one} alt="" /> </SwiperSlide>
+            slide h
+        </SwiperSlide>
         <SwiperSlide> 
-            <img src={five} alt="" /> </SwiperSlide>
+            slidel
+        </SwiperSlide>
         <SwiperSlide> 
-            <img src={four} alt="" /> </SwiperSlide>
+            slidem
+        </SwiperSlide>
         <SwiperSlide> 
-            <img src={two} alt="" /> </SwiperSlide>
+            slide 247
+        </SwiperSlide>
         
       </Swiper>
       

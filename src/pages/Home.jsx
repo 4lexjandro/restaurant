@@ -10,17 +10,19 @@ import useMeasure from "react-use-measure";
 
 
 
+const Bottom = styled.div`
+position:fixed;
+bottom:-3%;
+width:100%;
+color: rgb(255, 255, 255);
+`;
+
 
 const Home = () => {
 
 
   
-  const Bottom = styled.div`
-    position:fixed;
-    bottom:-3%;
-    width:100%;
-    color: rgb(255, 255, 255);
-`;
+ 
 
 
 const [ref, bounds] = useMeasure({ scroll: false });
@@ -44,13 +46,13 @@ const resetMousePosition = () => {
 
         {/* 3D Animation */}
          
-        <MotionConfig className="play"   onClick="" transition={transition}>
+        <MotionConfig className="play" transition={transition}>
       <motion.button
         ref={ref}
         initial={false}
         animate={isHover ? "hover" : "rest"}
         whileTap="press"
-        onClick=""
+  
         variants={{
           rest: { scale: 1 },
           hover: { scale: 1.5 },
@@ -74,19 +76,19 @@ const resetMousePosition = () => {
       >
         <motion.div
           className="shapes"
-          onClick=""
+    
           variants={{
             rest: { opacity: 0 },
             hover: { opacity: 1 }
           }}
           
         >
-          <div   onClick="" className="pink blush" />
-          <div   onClick="" className="blue blush" />
-          <div   onClick="" className="container">
+          <div className="pink blush" />
+          <div className="blue blush" />
+          <div className="container">
             <Suspense fallback={null}>
               <Shapes
-                onClick=""
+          
                 isHover={isHover}
                 isPress={isPress}
                 mouseX={mouseX}
@@ -122,13 +124,13 @@ const resetMousePosition = () => {
 
 
     {/* second 3d figure */}
-    <MotionConfig className="play"   onClick="" transition={transition}>
+    <MotionConfig className="play" transition={transition}>
       <motion.button
         ref={ref}
         initial={false}
         animate={isHover ? "hover" : "rest"}
         whileTap="press"
-        onClick=""
+  
         variants={{
           rest: { scale: 1 },
           hover: { scale: 1.5 },
@@ -152,19 +154,19 @@ const resetMousePosition = () => {
       >
         <motion.div
           className="shapes"
-          onClick=""
+    
           variants={{
             rest: { opacity: 0 },
             hover: { opacity: 1 }
           }}
           
         >
-          <div   onClick="" className="pink blush" />
-          <div   onClick="" className="blue blush" />
-          <div   onClick="" className="container">
+          <div className="pink blush" />
+          <div className="blue blush" />
+          <div className="container">
             <Suspense fallback={null}>
               <Shapes
-                onClick=""
+          
                 isHover={isHover}
                 isPress={isPress}
                 mouseX={mouseX}

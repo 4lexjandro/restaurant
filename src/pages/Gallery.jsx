@@ -75,57 +75,50 @@ const Gallery = () => {
       >
         
         <SwiperSlide> 
-          <div className='swiperSlideDiv'>
+          
           <img src={one} alt="" height="150" width="150"  />
-          </div>
+
         </SwiperSlide>
 
         <SwiperSlide> 
-        <div className='swiperSlideDiv'>
+        
             <img src={four} alt="" height="150" width="150" />
-            </div>
+  
         </SwiperSlide>
 
         <SwiperSlide> 
-        <div className='swiperSlideDiv'>
-            <img src={five} alt="" height="150" width="150" />
-        </div> 
+        
+            <img src={five} alt="" height="150" width="150" /> 
         </SwiperSlide>
 
         <SwiperSlide> 
-        <div className='swiperSlideDiv'>
-            <img src={two} alt="" height="150" width="150" />
-        </div> 
+        
+            <img src={two} alt="" height="150" width="150" /> 
         </SwiperSlide>
 
         <SwiperSlide> 
-        <div className='swiperSlideDiv'>
-            <img src={four} alt="" height="150" width="150" />
-        </div> 
+        
+            <img src={four} alt="" height="150" width="150" /> 
         </SwiperSlide>
         
         <SwiperSlide> 
-        <div className='swiperSlideDiv'>
-            <img src={one} alt="" height="150" width="150" />
-        </div> 
+        
+            <img src={one} alt="" height="150" width="150" /> 
         </SwiperSlide>
 
         <SwiperSlide> 
-        <div className='swiperSlideDiv'>
-            <img src={five} alt="" height="150" width="150" />
-        </div> 
+        
+            <img src={five} alt="" height="150" width="150" /> 
         </SwiperSlide>
 
         <SwiperSlide> 
-        <div className='swiperSlideDiv'>
-            <img src={four} alt="" height="150" width="150" />
-        </div> 
+        
+            <img src={four} alt="" height="150" width="150" /> 
         </SwiperSlide>
 
         <SwiperSlide> 
-        <div className='swiperSlideDiv'>
-            <img src={two} alt="" height="150" width="150" />
-        </div> 
+        
+            <img src={two} alt="" height="150" width="150" /> 
         </SwiperSlide>
         
       </Swiper>

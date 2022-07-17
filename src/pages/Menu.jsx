@@ -4,14 +4,17 @@ import Footer from '../minicomp/Footer'
 import { motion } from "framer-motion"
 
 
+
+const Bottom = styled.div`
+position:fixed;
+bottom:-3%;
+width:100%;
+color: rgb(255, 255, 255);
+`;
+
 function Menu() {
 
-  const Bottom = styled.div`
-    position:fixed;
-    bottom:-3%;
-    width:100%;
-    color: rgb(255, 255, 255);
-`;
+ 
 
 
   return (

@@ -2,6 +2,7 @@ import four from '../assets/four.jpg'
 import two from '../assets/two.jpg'
 import five from '../assets/five.jpg'
 import one from '../assets/one.jpg'
+import three from '../assets/three.jpg'
 import Footer from '../minicomp/Footer'
 import styled from "styled-components";
 // Import Swiper React components
@@ -15,17 +16,11 @@ import "swiper/css/navigation";
 import "../styles.scss";
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
+import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
 
 
-
-
-const Gallery = () => {
-
-  
-
-  const Bottom = styled.div`
+ const Bottom = styled.div`
     position:fixed;
     bottom:0%;
     width:100%;
@@ -48,6 +43,12 @@ const Gallery = () => {
   
   `;
 
+const Gallery = () => {
+
+  
+
+
+  SwiperCore.use([Autoplay, Pagination, Navigation])
 
  
 
@@ -98,7 +99,7 @@ const Gallery = () => {
 
         <SwiperSlide> 
         
-            <img src={four} alt="" height="150" width="150" /> 
+            <img src={three} alt="" height="150" width="150" /> 
         </SwiperSlide>
         
         <SwiperSlide> 
@@ -118,7 +119,7 @@ const Gallery = () => {
 
         <SwiperSlide> 
         
-            <img src={two} alt="" height="150" width="150" /> 
+            <img src={three} alt="" height="150" width="150" /> 
         </SwiperSlide>
         
       </Swiper>

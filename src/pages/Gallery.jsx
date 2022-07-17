@@ -63,6 +63,12 @@ const Gallery = () => {
     <Swiper
         spaceBetween={30}
         centeredSlides={true}
+        showsPagination={true}
+autoplay={true}
+
+loop={true}
+        loadMinimal
+        loadMinimalSize={2}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
@@ -76,31 +82,31 @@ const Gallery = () => {
       >
         
         <SwiperSlide> 
-            <p>this doesnt work!</p>
+            <img src={one} alt="" height="200" width="200" />
         </SwiperSlide>
         <SwiperSlide> 
-            <p>this doesnt work!</p>
+            <img src={four} alt="" height="200" width="200" />
         </SwiperSlide>
         <SwiperSlide> 
-            <p>this doesnt work!</p> 
+            <img src={five} alt="" height="200" width="200" /> 
         </SwiperSlide>
         <SwiperSlide> 
-            <p>this doesnt work!</p> 
+            <img src={two} alt="" height="200" width="200" /> 
         </SwiperSlide>
         <SwiperSlide> 
-            <p>this doesnt work!</p> 
+            <img src={four} alt="" height="200" width="200" /> 
         </SwiperSlide>
         <SwiperSlide> 
-            <p>this doesnt work!</p> 
+            <img src={one} alt="" height="200" width="200" /> 
         </SwiperSlide>
         <SwiperSlide> 
-            <p>this doesnt work!</p> 
+            <img src={five} alt="" height="200" width="200" /> 
         </SwiperSlide>
         <SwiperSlide> 
-            <p>this doesnt work!</p> 
+            <img src={four} alt="" height="200" width="200" /> 
         </SwiperSlide>
         <SwiperSlide> 
-            <p>this doesnt work!</p> 
+            <img src={two} alt="" height="200" width="200" /> 
         </SwiperSlide>
         
       </Swiper>

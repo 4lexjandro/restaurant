@@ -4,6 +4,7 @@ import five from '../assets/five.jpg'
 import one from '../assets/one.jpg'
 import Footer from '../minicomp/Footer'
 import styled from "styled-components";
+import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -12,8 +13,12 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
+import "../styles.scss";
+
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
+
+
 
 
 
@@ -43,41 +48,51 @@ const Gallery = () => {
  display: block;
   
   `;
-  
+
+
+ 
 
 
   return (
+
+    
     
 	<Main>
     <Frame className='w-4/6 h-4/6 content-center object-cover absolute ' alt=''>
    
-      <Swiper
+    <Swiper
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
-        removeClippedSubviews={false}
-        scrollEnabled={true}
         pagination={{
           clickable: true,
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
-		
       >
         
-        <SwiperSlide> <img src={one} alt="" /></SwiperSlide>
-        <SwiperSlide> <img src={four} alt="" /></SwiperSlide>
-        <SwiperSlide> <img src={five} alt="" /> </SwiperSlide>
-        <SwiperSlide> <img src={two} alt="" /> </SwiperSlide>
-        <SwiperSlide> <img src={four} alt="" /> </SwiperSlide>
-        <SwiperSlide> <img src={one} alt="" /> </SwiperSlide>
-        <SwiperSlide> <img src={five} alt="" /> </SwiperSlide>
-        <SwiperSlide> <img src={four} alt="" /> </SwiperSlide>
-        <SwiperSlide> <img src={two} alt="" /> </SwiperSlide>
+        <SwiperSlide> 
+            <img src={one} alt="" /></SwiperSlide>
+        <SwiperSlide> 
+            <img src={four} alt="" /></SwiperSlide>
+        <SwiperSlide> 
+            <img src={five} alt="" /> </SwiperSlide>
+        <SwiperSlide> 
+            <img src={two} alt="" /> </SwiperSlide>
+        <SwiperSlide> 
+            <img src={four} alt="" /> </SwiperSlide>
+        <SwiperSlide> 
+            <img src={one} alt="" /> </SwiperSlide>
+        <SwiperSlide> 
+            <img src={five} alt="" /> </SwiperSlide>
+        <SwiperSlide> 
+            <img src={four} alt="" /> </SwiperSlide>
+        <SwiperSlide> 
+            <img src={two} alt="" /> </SwiperSlide>
         
       </Swiper>
       

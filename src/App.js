@@ -13,7 +13,7 @@ import Contact from './pages/Contact'
 import Junk from './pages/Junk'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import "swiper/css/bundle";
 
 function App() {
 

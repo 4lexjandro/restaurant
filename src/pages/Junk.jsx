@@ -137,6 +137,8 @@ const Frame = styled.div`
 
 const Main = styled.div`
 
+aspect-ratio: 16/9; 
+display: block;
 
 `;
 

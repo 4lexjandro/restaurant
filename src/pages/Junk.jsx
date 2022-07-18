@@ -106,6 +106,7 @@ import four from '../assets/four.jpg'
 import two from '../assets/two.jpg'
 import five from '../assets/five.jpg'
 import one from '../assets/one.jpg'
+import three from '../assets/three.jpg'
 import Footer from '../minicomp/Footer'
 import styled from "styled-components";
 
@@ -165,32 +166,33 @@ export default function App() {
           <img src={one} alt=""  />
         </SwiperSlide>
         <SwiperSlide> 
-          <img src={one} alt=""  />
+          <img src={two} alt=""  />
+        </SwiperSlide>
+        <SwiperSlide> 
+          <img src={three} alt=""  />
+        </SwiperSlide>
+        <SwiperSlide> 
+          <img src={four} alt=""  />
+        </SwiperSlide>
+        <SwiperSlide> 
+          <img src={five} alt=""  />
+        </SwiperSlide>
+        <SwiperSlide> 
+          <img src={two} alt=""  />
+        </SwiperSlide>
+        <SwiperSlide> 
+          <img src={three} alt=""  />
         </SwiperSlide>
         <SwiperSlide> 
           <img src={one} alt=""  />
         </SwiperSlide>
         <SwiperSlide> 
-          <img src={one} alt=""  />
-        </SwiperSlide>
-        <SwiperSlide> 
-          <img src={one} alt=""  />
-        </SwiperSlide>
-        <SwiperSlide> 
-          <img src={one} alt=""  />
-        </SwiperSlide>
-        <SwiperSlide> 
-          <img src={one} alt=""  />
-        </SwiperSlide>
-        <SwiperSlide> 
-          <img src={one} alt=""  />
-        </SwiperSlide>
-        <SwiperSlide> 
-          <img src={one} alt=""  />
+          <img src={five} alt=""  />
         </SwiperSlide>
       </Swiper>
       </Frame>
       </Main>
+      <br/><br/><br/><br/><br/><br/><br/><br/>
 
 
 

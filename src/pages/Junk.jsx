@@ -133,17 +133,18 @@ color: rgb(255, 255, 255);
 
 const Frame = styled.div`
 
+right: 14%;
+top: 20%;
 `;
 
 const Main = styled.div`
 
-aspect-ratio: 16/9; 
-display: block;
 
 `;
 
 export default function App() {
   return (
+    <div>
     <Main>
       <Frame className='w-4/6 h-4/6 content-center object-cover absolute ' alt=''>
       <Swiper
@@ -189,6 +190,7 @@ export default function App() {
         </SwiperSlide>
       </Swiper>
       </Frame>
+      </Main>
 
 
 
@@ -196,6 +198,7 @@ export default function App() {
       <Bottom>
         <Footer />
       </Bottom>
-    </Main>
+    
+    </div>
   );
 }

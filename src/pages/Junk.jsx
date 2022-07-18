@@ -139,8 +139,6 @@ top: 20%;
 `;
 
 const Main = styled.div`
-
-
 `;
 
 export default function App() {

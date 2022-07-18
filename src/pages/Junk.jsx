@@ -132,25 +132,18 @@ color: rgb(255, 255, 255);
 `;
 
 const Frame = styled.div`
-display: flex;
-justify-content: center;
-right: 14%;
-top: 20%;
-aspect-ratio: 16/9; 
-display: block;
+
 `;
 
 const Main = styled.div`
-color: red;
-aspect-ratio: 16/9; 
-display: block;
+
 
 `;
 
 export default function App() {
   return (
     <Main>
-      <Frame className='w-4/6 h-4/6 content-center object-cover absolute ' alt=''>
+      <Frame  alt=''>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}

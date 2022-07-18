@@ -16,7 +16,7 @@ import "swiper/css/navigation";
 import "../styles.scss";
 
 // import required modules
-import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
+import{ Autoplay, Pagination, Navigation } from "swiper";
 
 
 
@@ -48,7 +48,6 @@ const Gallery = () => {
   
 
 
-  SwiperCore.use([Autoplay, Pagination, Navigation])
 
  
 

@@ -101,7 +101,7 @@ import pic5 from '../assets/pic5.png'
 
 
 
-const Junk = () => {
+const Navbarr = () => {
 
     const [expand, updateExpanded] = useState(false);
     const [navColour, updateNavbar] = useState(false);
@@ -207,4 +207,4 @@ const Junk = () => {
   );
 }
 
-export default Junk;
+export default Navbarr;

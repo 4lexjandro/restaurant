@@ -10,7 +10,6 @@ import Notfound from './pages/Notfound'
 import Home from './pages/Home'
 import Hours from './pages/Hours'
 import Contact from './pages/Contact'
-import Junk from './pages/Junk'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -50,7 +49,7 @@ function App() {
               <Route path='/contact' element={<Contact />} />
               <Route path='/notfound' element={<Notfound />} />
              <Route path='/*' element={<Notfound />} />
-             <Route path='/junk' element={<Junk />} />
+             
       </Routes>
 
      

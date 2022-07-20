@@ -3,17 +3,21 @@ import {motion} from "framer-motion"
 import styled from "styled-components";
 
 
+
+const Bottom = styled.div`
+position:fixed;
+bottom:-3%;
+width:100%;
+color: rgb(255, 255, 255);
+`;
+
+
+
 const Contact = () => {
 
 
 
-  const Bottom = styled.div`
-    position:fixed;
-    bottom:-3%;
-    width:100%;
-    color: rgb(255, 255, 255);
-`;
-
+ 
 
 
   return (

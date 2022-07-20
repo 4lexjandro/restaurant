@@ -4,16 +4,21 @@ import {motion} from "framer-motion"
 import styled from "styled-components";
 
 
-const Hours = () => {
 
 
-  const Bottom = styled.div`
+const Bottom = styled.div`
     position:fixed;
     bottom:-3%;
     width:100%;
     color: rgb(255, 255, 255);
 `;
 
+
+
+const Hours = () => {
+
+
+  
 
 
 

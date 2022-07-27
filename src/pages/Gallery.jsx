@@ -8,9 +8,6 @@ import one from '../assets/one.jpg'
 import three from '../assets/three.jpg'
 import Footer from '../minicomp/Footer'
 import styled from "styled-components";
-
-
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 

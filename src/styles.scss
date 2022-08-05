@@ -207,6 +207,7 @@ h1 {
 .navbar-toggler:focus,
 .navbar-toggler:active {
   outline: 0 !important;
+  color: transparent !important;
 }
 
 .navbar-toggler span:nth-child(1),.navbar-toggler span:nth-child(2),

@@ -87,9 +87,7 @@ export default function App() {
       </Frame>
       </Main>
       <br/><br/><br/><br/><br/><br/><br/><br/>
-
-
-
+    
 
       <Bottom>
         <Footer />

@@ -22,7 +22,7 @@ function Footer() {
    
   <div className="items-center grid-flow-col ">
     <img src={background} alt ="" width="60" height ="60"/>
-    <p>Copyright &copy; {footerYear} All rights reserved</p>
+    
   </div> 
   <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end ">
   

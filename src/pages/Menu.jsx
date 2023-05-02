@@ -45,7 +45,7 @@ function Menu() {
         <a href={MENU} className="menuPage" rel="noopener noreferrer" target="_blank" >
           <Center>
       <button 
-      className=" btn glass w-20 h-10 p-2 bg-pink-900 shadow-xl shadow-orange-600/20 sm:px-1 rounded-md animate-bounce" 
+      className=" btn glass w-20 h-10 p-2 bg-red-900 shadow-xl shadow-green-600/20 sm:px-1 rounded-md animate-bounce" 
       label="Resume">
         
         <small className="hours">MENU</small>

@@ -12,7 +12,8 @@ import useMeasure from "react-use-measure";
 
 const Bottom = styled.div`
 position:fixed;
-bottom:-3%;
+bottom:-6%;
+
 width:100%;
 color: rgb(255, 255, 255);
 `;

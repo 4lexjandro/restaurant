@@ -29,7 +29,7 @@ const NotFound = () => {
           Error
           </h1>
           <p className="text-5xl mb-8">404 - Page Not Found</p>
-          <Link to='/' className='btn px-1 py-1 bg-pink-900 shadow-xl shadow-orange-600/20 sm:px-1 btn-lg' >
+          <Link to='/' className='btn glass px-1 py-1 bg-pink-900 shadow-xl shadow-green-600/20 sm:px-1 btn-lg' >
           <FaHome className='hours' />
           <p className="hours">Back To Home</p>
           </Link>

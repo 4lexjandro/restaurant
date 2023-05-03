@@ -9,6 +9,20 @@ import Hours from './pages/Hours'
 import Contact from './pages/Contact'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
+import Clouds from './assets/Clouds.mp4';
+import styled from "styled-components";
+import Footer from './minicomp/Footer'
+
+
+
+
+const Bottom = styled.div`
+    position:fixed;
+    bottom:-3%;
+    width:100%;
+    color: rgb(255, 255, 255);
+`;
+
 
 function App() {
 
@@ -16,11 +30,26 @@ function App() {
 
 
   return (
-    <div > 
-    <Router> 
+    <div>
+    <div> 
+      <div className="main">
+    <div className="overlay">
 
-    
-    
+<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Clouds}
+          type="video/mp4"
+        />
+        </video>
+     </div>
+
+
+    <Router> 
 <div className="top"><Navbar /></div>
       
       <br/>
@@ -48,20 +77,18 @@ function App() {
              <Route path='/*' element={<Notfound />} />
              
       </Routes>
-
-     
-  
-
-
-
-
-      
-
-
-
-
-
     </Router>
+
+
+ 
+      </div>
+      </div>
+
+
+
+    <Bottom> 
+      <Footer />
+      </Bottom>
     </div>
   );
 }

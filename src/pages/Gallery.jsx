@@ -1,16 +1,14 @@
 
-
-import {motion} from "framer-motion"
 import four from '../assets/four.jpg'
 import two from '../assets/two.jpg'
 import five from '../assets/five.jpg'
 import one from '../assets/one.jpg'
 import three from '../assets/three.jpg'
-import Footer from '../minicomp/Footer'
+
 import styled from "styled-components";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import Clouds from '../assets/Clouds.mp4';
+
 
 // Import Swiper styles
 import "swiper/css";
@@ -22,12 +20,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
-const Bottom = styled.div`
-position:fixed;
-bottom:-3%;
-width:100%;
-color: rgb(255, 255, 255);
-`;
+
 
 const Frame = styled.div`
 
@@ -45,21 +38,7 @@ export default function App() {
     <>
 
 
-<div className="main">
-    <div className="overlay">
 
-<video autoPlay loop muted playsInline={true} 
-      controls={false}
-      disablePictureInPicture={true} 
-      id='video' className="vid"
-
-      >
-        <source
-          src={Clouds}
-          type="video/mp4"
-        />
-        </video>
-     </div>
 
 
      <div className= "numbers">
@@ -117,10 +96,7 @@ export default function App() {
     
       </main>
       </div>
-      </div>
-      <Bottom>
-        <Footer />
-      </Bottom>
+      
     
     </>
   );

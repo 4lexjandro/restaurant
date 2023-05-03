@@ -1,19 +1,11 @@
 import {FaHome} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
-import Footer from '../minicomp/Footer'
 import {motion} from "framer-motion"
-import styled from "styled-components";
-import Clouds from '../assets/Clouds.mp4';
 
 
 
 
-const Bottom = styled.div`
-    position:fixed;
-    bottom:-3%;
-    width:100%;
-    color: rgb(255, 255, 255);
-`;
+
 
 
 const NotFound = () => {
@@ -22,21 +14,7 @@ const NotFound = () => {
 
   return (
     <>
-     <div className="main">
-    <div className="overlay">
-
-<video autoPlay loop muted playsInline={true} 
-      controls={false}
-      disablePictureInPicture={true} 
-      id='video' className="vid"
-
-      >
-        <source
-          src={Clouds}
-          type="video/mp4"
-        />
-        </video>
-     </div>
+    
 
 
      <div className= "numbers">
@@ -70,11 +48,7 @@ const NotFound = () => {
 
       </main>
       </div>
-      </div>
-      <Bottom> 
-      <Footer />
-      </Bottom>
-  
+      
 
 
     </>

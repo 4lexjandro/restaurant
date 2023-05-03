@@ -1,19 +1,13 @@
-import Footer from '../minicomp/Footer'
 import {motion} from "framer-motion"
 import styled from "styled-components";
 import 'leaflet/dist/leaflet.css'
 import L from "leaflet";
 import React, { useMemo, useRef } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import Clouds from '../assets/Clouds.mp4';
 
 
-const Bottom = styled.div`
-position:fixed;
-bottom:-3%;
-width:100%;
-color: rgb(255, 255, 255);
-`;
+
+
 
 const Location = styled.div`
 position:fixed;
@@ -59,27 +53,11 @@ const Contact = () => {
 
   return (
     <>
-    <div className="main">
-    <div className="overlay">
-
-<video autoPlay loop muted playsInline={true} 
-      controls={false}
-      disablePictureInPicture={true} 
-      id='video' className="vid"
-
-      >
-        <source
-          src={Clouds}
-          type="video/mp4"
-        />
-        </video>
-     </div>
+    
 
 
      <div className= "numbers">
-    
     <main className="hours">
-    
     <main className="numbers">
         
       <motion.div
@@ -143,10 +121,7 @@ const Contact = () => {
 
       </main>
       </div>
-      </div>
-      <Bottom> 
-        <Footer />
-      </Bottom>
+     
         
         
         </>

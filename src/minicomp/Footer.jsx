@@ -31,7 +31,7 @@ function Footer() {
         className="">
         <FontAwesomeIcon className="hours" icon={faGoogle} size="2x" />
       </a>
-      <a href="https://facebook.com"
+      <a href="https://www.facebook.com/people/El-Cazador-Restaurant/100071299341187/"
         className="">
         <FontAwesomeIcon className="hours" icon={faFacebook} size="2x" />
       </a>

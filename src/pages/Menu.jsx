@@ -48,7 +48,7 @@ function Menu() {
       className=" btn glass w-20 h-10 p-2 bg-red-900 shadow-xl shadow-green-600/20 sm:px-1 rounded-md animate-bounce" 
       label="Resume">
         
-        <small className="hours">MENU</small>
+        <small className="glassButton">MENU</small>
         
       </button>
       </Center>

@@ -29,7 +29,7 @@
 
 .hours {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     -webkit-animation: fadeinout 2s linear forwards;
   animation: fadeinout 2s linear forwards;
 }
@@ -46,7 +46,7 @@
 
 .hourss {
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 
@@ -171,9 +171,9 @@ h1 {
 .numbers {
 
   text-align: center;
-  color: rgb(255, 255, 255);
-  -webkit-animation: fadeinout 4s linear forwards;
-  animation: fadeinout 4s linear forwards;
+  color: rgb(0, 0, 0);
+  -webkit-animation: fadeinout 2s linear forwards;
+  animation: fadeinout 2s linear forwards;
   
 }
 
@@ -470,16 +470,16 @@ color: rgba(0, 244, 195, 0.953);
 
 
 
-@import url("https://fonts.googleapis.com/css?family=Merienda+One");
-html, body {
-  width: 100%;
-  height:110%;
-  overflow-x: hidden;
-  background-color: #000;
-  background-image: url(https://images.unsplash.com/photo-1531972497489-8eb337acf6e5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=193456e9385b553747a5e0f0cbc7badb&auto=format&fit=crop&w=1334&q=80);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+// @import url("https://fonts.googleapis.com/css?family=Merienda+One");
+// html, body {
+//   width: 100%;
+//   height:110%;
+//   overflow-x: hidden;
+//   background-color: #000;
+//   background-image: url(https://images.unsplash.com/photo-1531972497489-8eb337acf6e5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=193456e9385b553747a5e0f0cbc7badb&auto=format&fit=crop&w=1334&q=80);
+//   background-size: cover;
+//   background-repeat: no-repeat;
+// }
 
 
 
@@ -652,8 +652,8 @@ html, body {
 
   text-align: center;
   color: rgb(255, 255, 255);
-  -webkit-animation: fadeinout 4s linear forwards;
-  animation: fadeinout 4s linear forwards;
+  -webkit-animation: fadeinout 2s linear forwards;
+  animation: fadeinout 2s linear forwards;
   
 }
 
@@ -686,3 +686,53 @@ html, body {
 100% { opacity: 2; }
 }
 
+
+
+
+
+
+
+
+
+
+
+// video background
+.vid{
+  width: 100%;
+  height: 150%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  
+}
+
+
+.footerlogos {
+  color:white;
+}

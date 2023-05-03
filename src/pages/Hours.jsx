@@ -2,6 +2,7 @@ import Footer from '../minicomp/Footer'
 import bottle from '../assets/bottle.png'
 import {motion} from "framer-motion"
 import styled from "styled-components";
+import Clouds from '../assets/Clouds.mp4';
 
 
 
@@ -26,6 +27,25 @@ const Hours = () => {
 
   return (
     <>
+     <div className="main">
+    <div className="overlay">
+
+<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Clouds}
+          type="video/mp4"
+        />
+        </video>
+     </div>
+
+
+     <div className= "numbers">
+    
     <main className="hours">
       
       
@@ -68,14 +88,21 @@ const Hours = () => {
    </section>
  </motion.div>
 
-      <Bottom className="bottom"> 
-      <Footer />
-      </Bottom>
+    
       
       
 
       
+      
+
+
+
+
+
+
       </main>
+      </div>
+      </div>
       <Bottom className="bottom"> 
       <Footer />
       </Bottom>

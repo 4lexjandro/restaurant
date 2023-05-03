@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import Footer from '../minicomp/Footer'
 import {motion} from "framer-motion"
 import styled from "styled-components";
+import Clouds from '../assets/Clouds.mp4';
 
 
 
@@ -20,6 +21,27 @@ const NotFound = () => {
   
 
   return (
+    <>
+     <div className="main">
+    <div className="overlay">
+
+<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Clouds}
+          type="video/mp4"
+        />
+        </video>
+     </div>
+
+
+     <div className= "numbers">
+    
+    <main className="hours"></main>
     <main className='hours'>
      <motion.div animate={{ scale: [2, 2, 1] }} >
 
@@ -29,7 +51,7 @@ const NotFound = () => {
           Error
           </h1>
           <p className="text-5xl mb-8">404 - Page Not Found</p>
-          <Link to='/' className='btn glass px-1 py-1 bg-pink-900 shadow-xl shadow-green-600/20 sm:px-1 btn-lg' >
+          <Link to='/' className='btn glass px-1 py-1 bg-pink-900 shadow-xl shadow-red-600/20 sm:px-1 btn-lg' >
           <FaHome className='glassButton' />
           <p className="glassButton">Back To Home</p>
           </Link>
@@ -39,11 +61,23 @@ const NotFound = () => {
 
 
       </motion.div>
+
+
+
+
+
+
+
+      </main>
+      </div>
+      </div>
       <Bottom> 
       <Footer />
       </Bottom>
   
-    </main>
+
+
+    </>
   )
 }
 

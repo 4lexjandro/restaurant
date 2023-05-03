@@ -10,6 +10,7 @@ import Footer from '../minicomp/Footer'
 import styled from "styled-components";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import Clouds from '../assets/Clouds.mp4';
 
 // Import Swiper styles
 import "swiper/css";
@@ -39,7 +40,30 @@ const Main = styled.div`
 
 export default function App() {
   return (
-    <div>
+
+    
+    <>
+
+
+<div className="main">
+    <div className="overlay">
+
+<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Clouds}
+          type="video/mp4"
+        />
+        </video>
+     </div>
+
+
+     <div className= "numbers">
+    <main>  
     
     <Main className="gallerypage">
       <Frame className='w-4/6 h-4/6 content-center object-cover absolute ' alt=''>
@@ -91,11 +115,13 @@ export default function App() {
       <br/><br/><br/><br/><br/><br/><br/><br/>
       
     
-
+      </main>
+      </div>
+      </div>
       <Bottom>
         <Footer />
       </Bottom>
     
-    </div>
+    </>
   );
 }

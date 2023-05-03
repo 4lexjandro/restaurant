@@ -2,6 +2,7 @@ import styled from "styled-components";
 import MENU from "../assets/MENU.pdf";
 import Footer from '../minicomp/Footer'
 import { motion } from "framer-motion"
+import Clouds from '../assets/Clouds.mp4';
 
 
 
@@ -24,7 +25,24 @@ function Menu() {
 
   return (
     <>
-    <div className= "numbers">
+    <div className="main">
+    <div className="overlay">
+
+<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Clouds}
+          type="video/mp4"
+        />
+        </video>
+     </div>
+
+
+     <div className= "numbers">
     <main>  
 
   
@@ -51,7 +69,7 @@ function Menu() {
         <a href={MENU} className="menuPage" rel="noopener noreferrer" target="_blank" >
           <Center>
       <button 
-      className=" btn glass w-20 h-10 p-2 bg-red-900 shadow-xl shadow-green-600/20 sm:px-1 rounded-md animate-bounce" 
+      className=" btn glass w-20 h-10 p-2 bg-red-900 shadow-xl shadow-red-600/20 sm:px-1 rounded-md animate-bounce" 
       label="Resume">
         
         <small className="glassButton">MENU</small>
@@ -63,9 +81,21 @@ function Menu() {
       </motion.div>
       </main>
       </div>
-      <Bottom> 
-      <Footer />
-      </Bottom>
+      </div>
+    
+
+
+
+
+
+
+
+
+
+      <Bottom>
+  <Footer />
+  </Bottom>
+      
       </>
      
   )

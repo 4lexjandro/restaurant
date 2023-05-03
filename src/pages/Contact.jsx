@@ -5,6 +5,7 @@ import 'leaflet/dist/leaflet.css'
 import L from "leaflet";
 import React, { useMemo, useRef } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import Clouds from '../assets/Clouds.mp4';
 
 
 const Bottom = styled.div`
@@ -58,7 +59,26 @@ const Contact = () => {
 
   return (
     <>
+    <div className="main">
+    <div className="overlay">
+
+<video autoPlay loop muted playsInline={true} 
+      controls={false}
+      disablePictureInPicture={true} 
+      id='video' className="vid"
+
+      >
+        <source
+          src={Clouds}
+          type="video/mp4"
+        />
+        </video>
+     </div>
+
+
+     <div className= "numbers">
     
+    <main className="hours">
     
     <main className="numbers">
         
@@ -74,7 +94,7 @@ const Contact = () => {
         Yonkers, New York, 10701
           <br/>
         <br/>
-        <a href = "tel:914-376-0371" className='btn glass px-1 py-1 bg-pink-900 shadow-xl shadow-green-600/20 sm:px-1 btn-md'><p className="glassButton">914 - 376 - 0371</p></a>
+        <a href = "tel:914-376-0371" className='btn glass px-1 py-1 bg-pink-900 shadow-xl shadow-red-600/20 sm:px-1 btn-md'><p className="glassButton">914 - 376 - 0371</p></a>
           
       
       </motion.div>
@@ -121,7 +141,9 @@ const Contact = () => {
 
 
 
-
+      </main>
+      </div>
+      </div>
       <Bottom> 
         <Footer />
       </Bottom>

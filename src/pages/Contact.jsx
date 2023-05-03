@@ -13,11 +13,12 @@ color: rgb(255, 255, 255);
 
 
 
+
+
 const Contact = () => {
 
 
 
- 
 
 
   return (

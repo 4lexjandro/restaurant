@@ -45,7 +45,7 @@ export default function App() {
     <main>  
     
     <Main className="gallerypage">
-      <Frame className='w-4/6 h-4/6 content-center object-cover absolute ' alt=''>
+      <Frame className='w-4/6 h-5/6 content-center object-cover absolute ' alt=''>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}

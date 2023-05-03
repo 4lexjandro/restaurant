@@ -609,10 +609,11 @@ html, body {
 
 
 .leafletContainer {
-  width: 100%;
+  width: 70%;
   height: 200px;
   overflow-x: hidden;
-  margin-bottom: 3rem;
+  margin-bottom: -5rem;
+  margin-left:25%;
 }
 @media (min-width: 1024px) {
   .leafletContainer {

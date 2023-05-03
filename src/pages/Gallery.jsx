@@ -1,6 +1,6 @@
 
 
-
+import {motion} from "framer-motion"
 import four from '../assets/four.jpg'
 import two from '../assets/two.jpg'
 import five from '../assets/five.jpg'
@@ -40,7 +40,8 @@ const Main = styled.div`
 export default function App() {
   return (
     <div>
-    <Main>
+    
+    <Main className="gallerypage">
       <Frame className='w-4/6 h-4/6 content-center object-cover absolute ' alt=''>
       <Swiper
         spaceBetween={30}
@@ -86,7 +87,9 @@ export default function App() {
       </Swiper>
       </Frame>
       </Main>
+      
       <br/><br/><br/><br/><br/><br/><br/><br/>
+      
     
 
       <Bottom>

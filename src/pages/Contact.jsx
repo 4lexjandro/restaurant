@@ -83,8 +83,9 @@ const Contact = () => {
 
 
 
+    <div className="mapp">
     <motion.div
-        animate={{ x: 0, y: 450, }}
+        animate={{ x: 10, y: 450, }}
          transition={{ ease: "easeOut", duration: 2 }}
       >
 
@@ -115,6 +116,7 @@ const Contact = () => {
       </div>
       </Location>
       </motion.div>
+      </div>
 
 
 

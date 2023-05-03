@@ -30,7 +30,33 @@
 .hours {
     text-align: center;
     color: rgb(255, 255, 255);
+    -webkit-animation: fadeinout 2s linear forwards;
+  animation: fadeinout 2s linear forwards;
 }
+
+@-webkit-keyframes fadeinout {
+0% { opacity: 0; }
+100% { opacity: 2; }
+}
+
+@keyframes fadeinout {
+0% { opacity: 0; }
+100% { opacity: 2; }
+}
+
+.hourss {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
 
 .glassButton {
   text-align: center;
@@ -615,9 +641,48 @@ html, body {
   margin-bottom: -5rem;
   margin-left:25%;
 }
-@media (min-width: 1024px) {
+@media (min-width: 624px) {
   .leafletContainer {
     height: 400px;
   }
+}
+
+.mapp
+{
+
+  text-align: center;
+  color: rgb(255, 255, 255);
+  -webkit-animation: fadeinout 4s linear forwards;
+  animation: fadeinout 4s linear forwards;
+  
+}
+
+@-webkit-keyframes fadeinout {
+0% { opacity: 0; }
+100% { opacity: 2; }
+}
+
+@keyframes fadeinout {
+0% { opacity: 0; }
+100% { opacity: 2; }
+}
+.gallerypage
+{
+
+  text-align: center;
+  color: rgb(255, 255, 255);
+  -webkit-animation: fadeinout 2s linear forwards;
+  animation: fadeinout 2s linear forwards;
+  
+}
+
+@-webkit-keyframes fadeinout {
+0% { opacity: 0; }
+100% { opacity: 2; }
+}
+
+@keyframes fadeinout {
+0% { opacity: 0; }
+100% { opacity: 2; }
 }
 

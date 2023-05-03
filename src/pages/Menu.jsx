@@ -23,20 +23,26 @@ function Menu() {
 
 
   return (
-    <div className= "hours">
-    <main className='container mx-auto px-0 pb-0'>  
+    <>
+    <div className= "numbers">
+    <main>  
 
   
 
     
-    <motion.div
-      initial={{ x: "300", }}
-      animate={{ x: "calc(80% - 80%)" }}>
+    
+<motion.div
+        animate={{ x: -10, y: 100, }}
+         transition={{ ease: "easeOut", duration: 2 }}
+      >
+
+        <h2>Menu</h2>
+        
+         
       
-      <h2>Menu Below!</h2>
       
 
-    </motion.div>
+    
     
       <br/>
       <motion.div
@@ -54,11 +60,14 @@ function Menu() {
       </Center>
         </a>
       </motion.div>
+      </motion.div>
       </main>
+      </div>
       <Bottom> 
       <Footer />
       </Bottom>
-      </div>
+      </>
+     
   )
 }
 

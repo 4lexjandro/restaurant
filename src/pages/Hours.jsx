@@ -25,6 +25,7 @@ const Hours = () => {
 
 
   return (
+    <>
     <main className="hours">
       
       
@@ -75,6 +76,10 @@ const Hours = () => {
 
       
       </main>
+      <Bottom className="bottom"> 
+      <Footer />
+      </Bottom>
+      </>
   )
 }
 

@@ -35,8 +35,8 @@ function App() {
       <div className="main">
     <div className="overlay">
 
-<video autoPlay loop muted playsInline={true} 
-      controls={false}
+<video autoPlay={true} loop muted playsInline={true} 
+      controls=''
       disablePictureInPicture={true} 
       id='video' className="vid"
 

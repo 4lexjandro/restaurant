@@ -59,6 +59,8 @@ const Contact = () => {
      <div className= "numbers">
     <main className="hours">
     <main className="numbers">
+
+
         
       <motion.div
         animate={{ x: 0, y: 100, }}
@@ -72,9 +74,17 @@ const Contact = () => {
         Yonkers, New York, 10701
           <br/>
         <br/>
+        <motion.div
+      className="box"
+      whileHover={{ scale: 1.2 }}
+      whileTap={{ scale: 0.9 }}
+      transition={{ type: "spring", stiffness: 400, damping: 17 }}
+    >
+      
         <a href = "tel:914-376-0371" className='btn glass px-1 py-1 bg-pink-900 shadow-xl shadow-red-600/20 sm:px-1 btn-md'><p className="glassButton">914 - 376 - 0371</p></a>
           
       
+      </motion.div>
       </motion.div>
 
     </main>

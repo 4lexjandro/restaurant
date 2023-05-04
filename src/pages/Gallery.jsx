@@ -1,29 +1,21 @@
-
 import four from '../assets/four.jpg'
 import two from '../assets/two.jpg'
 import five from '../assets/five.jpg'
 import one from '../assets/one.jpg'
 import three from '../assets/three.jpg'
-
 import styled from "styled-components";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
-
-
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 
 
 const Frame = styled.div`
-
 right: 14%;
 top: 20%;
 `;
@@ -31,7 +23,7 @@ top: 20%;
 const Main = styled.div`
 `;
 
-export default function App() {
+const Gallery = () => {
   return (
 
     
@@ -87,6 +79,9 @@ export default function App() {
         <SwiperSlide> 
           <img src={five} alt=""  />
         </SwiperSlide>
+        <SwiperSlide> 
+          <img src={four} alt=""  />
+        </SwiperSlide>
       </Swiper>
       </Frame>
       </Main>
@@ -101,3 +96,5 @@ export default function App() {
     </>
   );
 }
+
+export default Gallery

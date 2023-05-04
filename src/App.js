@@ -35,12 +35,14 @@ function App() {
       <div className="main">
     <div className="overlay">
 
-<video autoPlay={true} loop muted playsInline={true} 
-      controls=''
+<video autoPlay={true} 
+      loop={true}
+      muted playsInline={true} 
+      controls={false}
       disablePictureInPicture={true} 
       id='video' className="vid"
-
       >
+        {/* Battery mode may neeed to be off? */}
         <source
           src={Clouds}
           type="video/mp4"

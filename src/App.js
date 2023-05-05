@@ -6,7 +6,7 @@ import Gallery from './pages/Gallery'
 import Notfound from './pages/Notfound'
 import Home from './pages/Home'
 import Hours from './pages/Hours'
-import Contact from './pages/Contact'
+
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Clouds from './assets/Clouds.mp4';
@@ -77,7 +77,7 @@ function App() {
               <Route path='/hours' element={<Hours />} />
               <Route path='/' element={<Home />} />
               <Route path='/home' element={<Home />} />
-              <Route path='/contact' element={<Contact />} />
+              
               <Route path='/notfound' element={<Notfound />} />
              <Route path='/*' element={<Notfound />} />
              

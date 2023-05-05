@@ -73,18 +73,7 @@ const Gallery = () => {
         <SwiperSlide> 
           <img src={six} alt=""  />
         </SwiperSlide>
-        <SwiperSlide> 
-          <img src={three} alt=""  />
-        </SwiperSlide>
-        <SwiperSlide> 
-          <img src={Eight} alt=""  />
-        </SwiperSlide>
-        <SwiperSlide> 
-          <img src={five} alt=""  />
-        </SwiperSlide>
-        <SwiperSlide> 
-          <img src={four} alt=""  />
-        </SwiperSlide>
+        
       </Swiper>
       </Frame>
       </Main>

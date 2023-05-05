@@ -1,8 +1,11 @@
-import four from '../assets/four.jpg'
+
 import two from '../assets/two.jpg'
-import five from '../assets/five.jpg'
-import Eight from '../assets/eight.jpg'
 import three from '../assets/three.jpg'
+import four from '../assets/four.jpg'
+import five from '../assets/five.jpg'
+import six from '../assets/six.jpg'
+import Eight from '../assets/eight.jpg'
+
 import styled from "styled-components";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -68,7 +71,7 @@ const Gallery = () => {
           <img src={five} alt=""  />
         </SwiperSlide>
         <SwiperSlide> 
-          <img src={two} alt=""  />
+          <img src={six} alt=""  />
         </SwiperSlide>
         <SwiperSlide> 
           <img src={three} alt=""  />

@@ -1,5 +1,6 @@
 
 import "../styles.scss";
+import * as React from "react";
 
 
 
@@ -7,6 +8,9 @@ import "../styles.scss";
 
 
 const Home = () => {
+
+
+  
 
 
 
@@ -17,11 +21,13 @@ const Home = () => {
 
 
      <div className= "numbers">
-    <main>  
+    <main className="box">  
+    
 
   
 
-    <div>content here!</div>
+  
+
     
 
         

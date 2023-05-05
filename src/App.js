@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar'
+import ScrollToTop from './components/ScrollToTop'
 import "swiper/css/bundle";
 import "./styles.scss";
 import Menu from './pages/Menu'
@@ -63,6 +64,7 @@ function App() {
 
 
     <Router> 
+      <ScrollToTop/>
 <div className="top"><Navbar /></div>
       
       <br/>

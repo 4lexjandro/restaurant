@@ -9,7 +9,7 @@ import {
 
 
 function Footer() {
-    const footerYear = new Date().getFullYear()
+    
 
 
 

@@ -2,7 +2,7 @@ import Social from './Social'
 
 
 function Minifooter() {
-    const footerYear = new Date().getFullYear()
+    
 
 
 

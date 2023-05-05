@@ -6,7 +6,7 @@ import Gallery from './pages/Gallery'
 import Notfound from './pages/Notfound'
 import Home from './pages/Home'
 import Hours from './pages/Hours'
-
+import {Helmet} from "react-helmet";
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Clouds from './assets/Clouds.mp4';
@@ -25,13 +25,21 @@ const Bottom = styled.div`
 
 
 function App() {
-
+  
 
 
 
   return (
-    <div>
+    <>
+    
+    
     <div> 
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>El Cazador Cafe</title>
+      <link rel="el cazador cafe" href="https://elcazadorcafe.vercel.app/" />
+     </Helmet>
+      
       <div className="main">
     <div className="overlay">
 
@@ -94,7 +102,7 @@ function App() {
     <Bottom> 
       <Footer />
       </Bottom>
-    </div>
+    </>
   );
 }
 

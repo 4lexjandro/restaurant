@@ -208,7 +208,7 @@
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #7f1d1d !important;
+  background-color: #7f1212 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -257,7 +257,7 @@
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #202127 !important;
+    
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -595,10 +595,13 @@ color: rgba(0, 244, 195, 0.953);
 
 
 .footerlogos {
-  color:white;
+  color:rgb(0, 0, 0);
 }
 
-
+.address {
+  color:black;
+  font-size: 17px;
+}
 
 
 

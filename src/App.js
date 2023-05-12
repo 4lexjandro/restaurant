@@ -10,7 +10,7 @@ import Hours from './pages/Hours'
 import {Helmet} from "react-helmet";
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
-import Clouds from './assets/Clouds.mp4';
+import Cloud from './assets/Cloud.mp4';
 import styled from "styled-components";
 import Footer from './minicomp/Footer'
 
@@ -53,7 +53,7 @@ function App() {
       >
         {/* Battery mode may neeed to be off? */}
         <source
-          src={Clouds}
+          src={Cloud}
           type="video/mp4"
         />
         </video>

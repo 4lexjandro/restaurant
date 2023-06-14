@@ -4,6 +4,7 @@ import three from '../assets/three.jpg'
 import four from '../assets/four.jpg'
 import five from '../assets/five.jpg'
 import six from '../assets/six.jpg'
+import seven from '../assets/seven.jpg'
 import Eight from '../assets/eight.jpg'
 
 import styled from "styled-components";
@@ -60,6 +61,9 @@ const Gallery = () => {
         </SwiperSlide>
         <SwiperSlide> 
           <img src={two} alt=""  />
+        </SwiperSlide>
+        <SwiperSlide> 
+          <img src={seven} alt=""  />
         </SwiperSlide>
         <SwiperSlide> 
           <img src={three} alt=""  />

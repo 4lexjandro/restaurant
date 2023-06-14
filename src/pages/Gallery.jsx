@@ -56,6 +56,7 @@ const Gallery = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
+
         <SwiperSlide> 
           <img src={Eight} alt=""  />
         </SwiperSlide>
@@ -77,6 +78,7 @@ const Gallery = () => {
         <SwiperSlide> 
           <img src={six} alt=""  />
         </SwiperSlide>
+        
         
       </Swiper>
       </Frame>

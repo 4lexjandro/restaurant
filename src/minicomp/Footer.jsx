@@ -18,6 +18,8 @@ function Footer() {
     <div >
       <br/>
     <footer className="footer items-center text-primary-content footer-center ">
+   
+
 
   <div className="grid-flow-col gap-4 text-primary-content footer-center">
 

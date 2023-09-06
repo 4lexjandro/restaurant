@@ -11,9 +11,10 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 
 
+
+
 const Location = styled.div`
-position:fixed;
-bottom:20%;
+
 width:100%;
 
 `;
@@ -58,16 +59,11 @@ const Home = () => {
     
 
 
-     <div className= "numbers">
+     <div >
     <main className="box">  
     
 
-    <div>
-    <h1 className='flipY'>El</h1>
-    <h1 className='flipY'>Cazador</h1>
-    <h1 className='flipY'>Cafe</h1>
    
-  </div>
    
   <div className= "numbers">
     <main className="hours">
@@ -77,10 +73,10 @@ const Home = () => {
         
       <motion.div
         animate={{ x: 0, y: 100, }}
-         transition={{ ease: "easeOut", duration: 2 }}
+         transition={{ ease: "easeOut", duration: 1 }}
       >
         
-          El Cazador Cafe
+        <h1>El Cazador Cafe</h1>
           <br/>
         20 Park Hill Ave
         <br/>
@@ -107,7 +103,7 @@ const Home = () => {
     <div className="mapp">
     <motion.div
         animate={{ x: 10, y: 450, }}
-         transition={{ ease: "easeOut", duration: 2 }}
+         transition={{ ease: "easeOut", duration: 1 }}
       >
 
 
@@ -124,13 +120,17 @@ const Home = () => {
               attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
               url='https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png'
             />
+            
 
             <Marker 
             ref={markerRef}
             position={position}
             icon={icon}
             eventHandlers={eventHandlers}
+            
             >
+              
+              
               <Popup> El Cazador Cafe</Popup>
             </Marker>
           </MapContainer>

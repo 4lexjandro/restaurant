@@ -90,8 +90,8 @@ const Home = () => {
     </main>
 
 
-
-    <div className="mapp">
+{/* FIX THIS FUCKERY!!!!!!!! */}
+    {/* <div className="mapp">
     <motion.div
         animate={{ x: 10, y: 450, }}
          transition={{ ease: "easeOut", duration: 1 }}
@@ -125,33 +125,21 @@ const Home = () => {
             </Marker>
           </MapContainer>
       </div>
-      
       </motion.div>
-      </div>
-
-
-
-
+      </div> */}
       </main>
       </div>
      
     
 
+
+
+
+
         
       </main>
       </div>
-      
     
-
-
-
-
-
-
-
-
-
-      
       </>
   )}
 

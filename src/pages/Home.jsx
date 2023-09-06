@@ -14,9 +14,7 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 
 const Location = styled.div`
-position: fixed;
-bottom: 0%;
-width: 100%;
+
 `;
 
 const position = [40.928890, -73.894990]

@@ -3,19 +3,12 @@ import "../styles.scss";
 
 import React,  { useMemo, useRef } from "react";
 import {motion} from "framer-motion"
-import styled from "styled-components";
 import 'leaflet/dist/leaflet.css'
 import L from "leaflet";
 
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 
-
-
-
-const Location = styled.div`
-
-`;
 
 const position = [40.928890, -73.894990]
 
@@ -63,7 +56,7 @@ const Home = () => {
 
    
    
-  <div className= "numbers">
+  <div >
     <main className="hours">
     <main className="numbers">
 
@@ -106,7 +99,7 @@ const Home = () => {
 
 
 
-    <Location>
+    
     <div className='leafletContainer'>
           <MapContainer
             style={{ height: '70%', width: '70%' }}
@@ -132,7 +125,7 @@ const Home = () => {
             </Marker>
           </MapContainer>
       </div>
-      </Location>
+      
       </motion.div>
       </div>
 

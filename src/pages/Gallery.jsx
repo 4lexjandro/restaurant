@@ -37,7 +37,8 @@ const Gallery = () => {
 
 
 
-     <div className= "numbers">
+     {/* <div className= "numbers"> */}
+     
     <main>  
     
     <Main className="gallerypage">
@@ -88,7 +89,7 @@ const Gallery = () => {
       
     
       </main>
-      </div>
+      
       
     
     </>

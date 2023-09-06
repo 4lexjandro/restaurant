@@ -454,36 +454,16 @@ object-fit: cover;
 
 
 
+.swiper-button-next,
+          .swiper-button-prev {
+            padding: 8px 16px !important;
+            border-radius: 100% !important;
+            color: #6b1e0f !important;
+          }
+          .swiper-pagination-bullet{
+            background-color: #6b1e0f !important;
+          }
 
-
-
-
-
-
-
-
-
-// @import url("https://fonts.googleapis.com/css?family=Merienda+One");
-// html, body {
-//   width: 100%;
-//   height:110%;
-//   overflow-x: hidden;
-//   background-color: #000;
-//   background-image: url(https://images.unsplash.com/photo-1531972497489-8eb337acf6e5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=193456e9385b553747a5e0f0cbc7badb&auto=format&fit=crop&w=1334&q=80);
-//   background-size: cover;
-//   background-repeat: no-repeat;
-// }
-
-
-
-
-
-
-
-
-
-// background: url('./assets/sunset.jpeg') no-repeat center center/cover;
-// position: absolute;
 
 
 
@@ -547,20 +527,6 @@ animation: fadeinout 2s linear forwards;
 
 
 
-
-
-
-
-
-@-webkit-keyframes fadeinout {
-0% { opacity: 0; }
-100% { opacity: 2; }
-}
-
-@keyframes fadeinout {
-0% { opacity: 0; }
-100% { opacity: 2; }
-}
 .gallerypage
 {
 
@@ -569,7 +535,12 @@ color: rgb(255, 255, 255);
 -webkit-animation: fadeinout 1s linear forwards;
 animation: fadeinout 1s linear forwards;
 
+width: 100%;
+height: auto !important;
+
 }
+
+
 
 @-webkit-keyframes fadeinout {
 0% { opacity: 0; }

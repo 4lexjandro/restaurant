@@ -15,7 +15,6 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 const Location = styled.div`
 
-width:100%;
 
 `;
 
@@ -129,9 +128,8 @@ const Home = () => {
             eventHandlers={eventHandlers}
             
             >
-              
-              
-              <Popup> El Cazador Cafe</Popup>
+              <Popup> El Cazador Cafe
+              </Popup>
             </Marker>
           </MapContainer>
       </div>

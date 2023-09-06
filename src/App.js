@@ -10,7 +10,7 @@ import Hours from './pages/Hours'
 import {Helmet} from "react-helmet";
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
-import Cloud from './assets/Cloud.mp4';
+import teal from './assets/teal.png';
 import styled from "styled-components";
 import Footer from './minicomp/Footer'
 
@@ -43,8 +43,9 @@ function App() {
       
       <div className="main">
     <div className="overlay">
+      <img src={teal} className="vid" alt=''/>
 
-<video autoPlay={true} 
+{/* <video autoPlay={true} 
       loop={true}
       muted playsInline={true} 
       controls={false}
@@ -52,11 +53,11 @@ function App() {
       id='video' className="vid"
       >
         {/* Battery mode may neeed to be off? */}
-        <source
-          src={Cloud}
+        {/* <source
+          src={teal}
           type="video/mp4"
-        />
-        </video>
+        /> */}
+        {/* </video> */} 
 
 
 

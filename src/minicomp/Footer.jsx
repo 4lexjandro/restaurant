@@ -5,7 +5,7 @@ import {
     faFacebook,
     faGoogle,
   } from "@fortawesome/free-brands-svg-icons";
-  import background from '../assets/background.jpg'
+  
 
 
 function Footer() {
@@ -18,10 +18,6 @@ function Footer() {
     <div >
       <br/>
     <footer className="footer items-center text-primary-content footer-center ">
-   
-  <div className="items-center ">
-    <img src={background} alt ="" width="80" height ="80"/>
-  </div> 
 
   <div className="grid-flow-col gap-4 text-primary-content footer-center">
 

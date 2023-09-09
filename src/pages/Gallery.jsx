@@ -1,10 +1,11 @@
 
-import two from '../assets/two.jpg'
+import two from '../assets/two.png'
+import seven from '../assets/seven.png'
+import four from '../assets/four.png'
+import five from '../assets/five.png'
+
 import three from '../assets/three.jpg'
-import four from '../assets/four.jpg'
-import five from '../assets/five.jpg'
 import six from '../assets/six.jpg'
-import seven from '../assets/seven.jpg'
 import Eight from '../assets/eight.jpg'
 
 import styled from "styled-components";
@@ -58,17 +59,13 @@ const Gallery = () => {
         className="mySwiper"
       >
 
-        <SwiperSlide> 
-          <img src={Eight} alt=""  />
-        </SwiperSlide>
+       
+        
         <SwiperSlide> 
           <img src={two} alt=""  />
         </SwiperSlide>
         <SwiperSlide> 
           <img src={seven} alt=""  />
-        </SwiperSlide>
-        <SwiperSlide> 
-          <img src={three} alt=""  />
         </SwiperSlide>
         <SwiperSlide> 
           <img src={four} alt=""  />
@@ -77,7 +74,14 @@ const Gallery = () => {
           <img src={five} alt=""  />
         </SwiperSlide>
         <SwiperSlide> 
+          <img src={Eight} alt=""  />
+        </SwiperSlide>
+        <SwiperSlide> 
           <img src={six} alt=""  />
+        </SwiperSlide>
+       
+        <SwiperSlide> 
+          <img src={three} alt=""  />
         </SwiperSlide>
         
         

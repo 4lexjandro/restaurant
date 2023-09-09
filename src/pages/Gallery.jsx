@@ -33,12 +33,6 @@ const Gallery = () => {
 
     
     <>
-
-
-
-
-
-     {/* <div className= "numbers"> */}
      
     <main>  
     

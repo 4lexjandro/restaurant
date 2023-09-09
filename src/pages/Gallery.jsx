@@ -1,10 +1,10 @@
 
-import two from '../assets/two.avif'
-import seven from '../assets/seven.avif'
-import four from '../assets/four.avif'
-import five from '../assets/five.avif'
+import two from '../assets/two.png'
+import seven from '../assets/seven.png'
+import four from '../assets/four.png'
+import five from '../assets/five.png'
 
-import three from '../assets/three.avif'
+import three from '../assets/three.jpg'
 import six from '../assets/six.jpg'
 import Eight from '../assets/eight.jpg'
 

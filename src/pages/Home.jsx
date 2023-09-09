@@ -1,11 +1,9 @@
 
 import "../styles.scss";
-
-import React,  { useMemo, useRef } from "react";
+import React from "react";
 import {motion} from "framer-motion"
 import 'leaflet/dist/leaflet.css'
-import L from "leaflet";
-import MapComponent from "../components/map.component";
+
 
 
 

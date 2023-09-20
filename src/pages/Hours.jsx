@@ -45,16 +45,34 @@ const Hours = () => {
           rotate: [0, 0, -180, -180, 0],
                 }}
     >
-      Sunday - Saturday
+      Friday - Monday
     </motion.div>
-      <br/>
+      
     <motion.div
       animate={{
         scale: [1, 2, 2, 1, 1],
         rotate: [0, 0, -90, -90, 0],
               }}
               >
-       11AM - 1AM
+       12PM - 1AM
+    </motion.div>
+    <br/>
+    <motion.div
+        animate={{
+          scale: [1, 2, 2, 1, 1],
+          rotate: [0, 0, -180, -180, 0],
+                }}
+    >
+      Tuesday - Thursday
+    </motion.div>
+      
+    <motion.div
+      animate={{
+        scale: [1, 2, 2, 1, 1],
+        rotate: [0, 0, -90, -90, 0],
+              }}
+              >
+       4PM - 1AM
     </motion.div>
 
    <section className="waters">

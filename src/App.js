@@ -13,6 +13,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import teal from './assets/teal.png';
 import styled from "styled-components";
 import Footer from './minicomp/Footer'
+import { useState, useEffect, CSSProperties } from "react";
+import MoonLoader from 'react-spinners/ClipLoader';
+
 
 
 
@@ -24,49 +27,61 @@ const Bottom = styled.div`
     color: rgb(255, 255, 255);
 `;
 
+const override: CSSProperties = {
+  display: "block",
+  margin: "0 auto",
+  
+};
+
 
 function App() {
-  
+
+  const [loading, setLoading] = useState(false)
+
+ 
+
+  useEffect(()=> {
+    setLoading(true)
+    setTimeout(()=>{
+      setLoading(false)
+    },500)
+    
+  },[])
 
 
 
   return (
     <>
-    
-    
     <div> 
+   
+      
     <Helmet>
       <meta charSet="utf-8" />
       <title>El Cazador Cafe</title>
       <link rel="el cazador cafe" href="https://elcazadorcafe.vercel.app/" />
      </Helmet>
+
+    
       
       <div className="main">
+
     <div className="overlay">
       <img src={teal} className="vid" alt=''/>
-
-{/* <video autoPlay={true} 
-      loop={true}
-      muted playsInline={true} 
-      controls={false}
-      disablePictureInPicture={true} 
-      id='video' className="vid"
-      >
-        {/* Battery mode may neeed to be off? */}
-        {/* <source
-          src={teal}
-          type="video/mp4"
-        /> */}
-        {/* </video> */} 
-
-
-
      </div>
-
+  
+     {
+    loading ?
+    <MoonLoader color={'maroon'} 
+    loading={loading} 
+    size={100} 
+    cssOverride={override}
+   /> 
+    : 
 
     <Router> 
+
       <ScrollToTop/>
-<div className="top"><Navbar /></div>
+      <div className="top"><Navbar /></div>
       
       <br/>
       <br/>
@@ -75,37 +90,31 @@ function App() {
       <br/>
       <br/>
      
-
-      
-
-
-     
-
-
       <Routes>
               <Route path='/menu' element={<Menu />} />
               <Route path='/gallery' element={<Gallery />} />
               <Route path='/hours' element={<Hours />} />
               <Route path='/' element={<Home />} />
-              <Route path='/home' element={<Home />} />
-              
+              <Route path='/home' element={<Home />} />  
               <Route path='/notfound' element={<Notfound />} />
              <Route path='/*' element={<Notfound />} />
-             
       </Routes>
+ 
     </Router>
+}     
 
 
  
       </div>
       </div>
 
-
-
+    
     <Bottom> 
       <Footer />
       </Bottom>
+
     </>
+  
   );
 }
 

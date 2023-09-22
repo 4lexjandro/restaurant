@@ -1,7 +1,8 @@
 
+import { useState} from "react";
 
 
-import React, { useState } from 'react'
+
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -17,6 +18,8 @@ const Navbarr = () => {
     const [expand, updateExpanded] = useState(false);
     const [navColour, updateNavbar] = useState(false);
 
+
+
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
@@ -28,13 +31,25 @@ const Navbarr = () => {
   window.addEventListener("scroll", scrollHandler);
 
 
+
+
+
+
+
+
   return (
+    
+    
     <Navbar
       expanded={expand}
       fixed="top"
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
+
+     
+     
+
       <Container >
         <Navbar.Brand href="/" className="d-flex">
           <img src={pic5} alt="" width="50" height="50" />
@@ -66,9 +81,12 @@ const Navbarr = () => {
         <Navbar.Collapse id="responsive-navbar-nav" className="centerNav">
           <Nav className="ms-auto" defaultActiveKey="#menu">
             <Nav.Item>
+            
               <Nav.Link as={Link} to="/home" onClick={() => updateExpanded(false)}>
+                
                Home
               </Nav.Link>
+
             </Nav.Item>
 
 
@@ -118,6 +136,7 @@ const Navbarr = () => {
           </Nav>
         </Navbar.Collapse>
       </Container>
+
     </Navbar>
   );
 }

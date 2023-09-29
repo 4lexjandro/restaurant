@@ -18,9 +18,9 @@ const Hours = () => {
     
 
 
-     <div className= "numbers">
+     <main className= "numbers">
     
-    <main className="hours">
+    
       
       
 
@@ -93,7 +93,6 @@ const Hours = () => {
 
 
       </main>
-      </div>
       
       </>
   )

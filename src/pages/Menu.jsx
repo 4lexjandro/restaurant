@@ -43,10 +43,10 @@ function Menu() {
         <a href={MENU} className="menuPage" rel="noopener noreferrer" target="_blank" >
           <Center>
       <button 
-      className=" btn btn-secondary  w-15 h-10 p-2 bg-red-900 shadow-xl shadow-red-600/20 sm:px-1 rounded-md" 
+      className=" btn glass w-15 h-10 p-2 bg-red-900 shadow-xl shadow-red-600/20 sm:px-1 rounded-md" 
       label="Resume">
         
-        <small>MENU</small>
+        <small className='glassButton'>MENU</small>
         
       </button>
 

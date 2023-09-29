@@ -16,7 +16,6 @@ const NotFound = () => {
     <>
      <div className= "numbers">
     
-    <main className="hours"></main>
     <main className='hours'>
      <motion.div animate={{ scale: [2, 2, 1] }} >
 
@@ -32,7 +31,7 @@ const NotFound = () => {
       whileTap={{ scale: 0.9 }}
       transition={{ type: "spring", stiffness: 400, damping: 17 }}
     >
-          <Link to='/' className='btn glass px-1 py-1 bg-pink-900 shadow-xl shadow-red-600/20 sm:px-1 btn-lg' >
+          <Link to='/' className='btn glass  px-1 py-1 bg-pink-900 shadow-xl shadow-red-600/20 sm:px-1 btn-lg' >
           <FaHome className='glassButton' />
           <p className="glassButton">Back To Home</p>
           </Link>

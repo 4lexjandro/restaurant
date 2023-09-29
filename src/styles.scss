@@ -23,26 +23,31 @@ transition: all 2s;
 
 
 
+.numbers {
 
-
-
-
-.hours {
   text-align: center;
-  color: rgb(0, 0, 0);
-  -webkit-animation: fadeinout 2s linear forwards;
-animation: fadeinout 2s linear forwards;
-}
+  color: rgb(255, 255, 255);
+  -webkit-animation: fadeinout 4s linear forwards;
+  animation: fadeinout 4s linear forwards;
+  
+  }
+  
+  @-webkit-keyframes fadeinout {
+  0% { opacity: 0; }
+  100% { opacity: 2; }
+  }
+  
+  @keyframes fadeinout {
+  0% { opacity: 0; }
+  100% { opacity: 2; }
+  }
+  
 
-@-webkit-keyframes fadeinout {
-0% { opacity: 0; }
-100% { opacity: 2; }
-}
 
-@keyframes fadeinout {
-0% { opacity: 0; }
-100% { opacity: 2; }
-}
+
+
+
+
 
 .hourss {
 text-align: center;
@@ -56,11 +61,10 @@ color: rgb(0, 0, 0);
 
 
 
-
-
+// Property used this way for glass button to avoid having grey text with whie background
 .glassButton {
 text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .home {
@@ -149,26 +153,6 @@ animation-delay: 0.5s;
 
 
 
-
-
-.numbers {
-
-text-align: center;
-color: rgb(0, 0, 0);
--webkit-animation: fadeinout 2s linear forwards;
-animation: fadeinout 2s linear forwards;
-
-}
-
-@-webkit-keyframes fadeinout {
-0% { opacity: 0; }
-100% { opacity: 2; }
-}
-
-@keyframes fadeinout {
-0% { opacity: 0; }
-100% { opacity: 2; }
-}
 
 
 
@@ -621,22 +605,11 @@ height: 100vh;
 }
 
 
-.footerlogos {
-color:rgb(0, 0, 0);
-}
 
-.address {
-color:rgb(0, 0, 0);
+
+.footer {
+color:rgb(255, 255, 255);
 font-size: 14px;
-}
-
-
-
-.googleMaps{
-  
-  margin: auto !important;
-  width: 60% !important;
-  
 }
 
 

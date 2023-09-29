@@ -10,7 +10,7 @@ import Hours from './pages/Hours'
 import {Helmet} from "react-helmet";
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
-import teal from './assets/teal.png';
+import flame from './assets/flame.jpeg';
 import styled from "styled-components";
 import Footer from './minicomp/Footer'
 import { useState, useEffect, CSSProperties } from "react";
@@ -65,9 +65,9 @@ function App() {
       
       <div className="main">
 
-    <div className="overlay">
-      <img src={teal} className="vid" alt=''/>
-     </div>
+     <div className="overlay">
+      <img src={flame} className="vid" alt=''/>
+     </div> 
   
      {
     loading ?

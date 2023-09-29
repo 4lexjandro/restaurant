@@ -15,7 +15,7 @@ const Home = () => {
     <main className="box">  
     
   <div >
-    <main className="hours">
+    
     <main className="numbers">
 
 
@@ -44,7 +44,6 @@ const Home = () => {
       </motion.div>
       
 
-      </main>
       </main>
       </div>
      

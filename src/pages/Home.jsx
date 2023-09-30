@@ -1,7 +1,5 @@
-
 import "../styles.scss";
 import {motion} from "framer-motion"
-import 'leaflet/dist/leaflet.css'
 
 const Home = () => {
 
@@ -14,7 +12,7 @@ const Home = () => {
      <div >
     <main className="box">  
     
-  <div >
+  
     
     <main className="numbers">
 
@@ -45,7 +43,7 @@ const Home = () => {
       
 
       </main>
-      </div>
+      
      
       </main>
       </div>

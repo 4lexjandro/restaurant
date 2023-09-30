@@ -6,27 +6,11 @@ import {motion} from "framer-motion"
 
 const Hours = () => {
 
-
-  
-
-
-
-
-
   return (
     <>
+   <main className= "numbers">
     
-
-
-     <main className= "numbers">
-    
-    
-      
-      
-
-
-      
-      
+     
 <motion.div
   animate={{ x: 0, y: 60, }}
   transition={{ ease: "easeOut", duration: 5 }}
@@ -76,24 +60,11 @@ const Hours = () => {
     </motion.div>
 
    <section className="waters">
-      <img   src={bottle} alt="" width="250" height="250"/>
+    <img   src={bottle} alt="" width="250" height="250"/>
    </section>
+
  </motion.div>
-
-    
-      
-      
-
-      
-      
-
-
-
-
-
-
-      </main>
-      
+     </main>  
       </>
   )
 }

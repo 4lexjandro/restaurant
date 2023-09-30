@@ -59,12 +59,11 @@ function App() {
       <meta charSet="utf-8" />
       <title>El Cazador Cafe</title>
       <link rel="el cazador cafe" href="https://elcazadorcafe.vercel.app/" />
-     </Helmet>
+    </Helmet>
 
     
       
       <div className="main">
-
      <div className="overlay">
       <img src={deer} className="vid" alt=''/>
      </div> 
@@ -82,13 +81,7 @@ function App() {
 
       <ScrollToTop/>
       <div className="top"><Navbar /></div>
-      
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <br/><br/><br/><br/><br/><br/>
      
       <Routes>
               <Route path='/menu' element={<Menu />} />
@@ -102,13 +95,10 @@ function App() {
  
     </Router>
 }     
-
-
  
       </div>
       </div>
-
-    
+      
     <Bottom> 
       <Footer />
       </Bottom>

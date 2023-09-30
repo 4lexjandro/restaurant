@@ -1,13 +1,10 @@
-
 import two from '../assets/two.png'
 import seven from '../assets/seven.png'
 import four from '../assets/four.png'
 import five from '../assets/five.png'
-
 import three from '../assets/three.jpg'
 import six from '../assets/six.jpg'
 import Eight from '../assets/eight.jpg'
-
 import styled from "styled-components";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -20,23 +17,19 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 
 
+
 const Frame = styled.div`
 right: 14%;
 top: 20%;
 `;
 
-const Main = styled.div`
-`;
+
 
 const Gallery = () => {
   return (
-
-    
     <>
-     
-    <main>  
-    
-    <Main className="gallerypage">
+
+    <main className="gallerypage">
       <Frame className='w-4/6 h-5/6 content-center object-cover absolute ' alt=''>
       <Swiper
         spaceBetween={30}
@@ -53,8 +46,6 @@ const Gallery = () => {
         className="mySwiper"
       >
 
-       
-        
         <SwiperSlide> 
           <img src={two} alt=""  />
         </SwiperSlide>
@@ -73,23 +64,15 @@ const Gallery = () => {
         <SwiperSlide> 
           <img src={six} alt=""  />
         </SwiperSlide>
-       
         <SwiperSlide> 
           <img src={three} alt=""  />
         </SwiperSlide>
-        
-        
+              
       </Swiper>
       </Frame>
-      </Main>
-      
+      </main>
       <br/><br/><br/><br/><br/><br/><br/><br/>
       
-    
-      </main>
-      
-      
-    
     </>
   );
 }

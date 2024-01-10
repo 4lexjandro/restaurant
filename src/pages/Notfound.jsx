@@ -33,7 +33,7 @@ const NotFound = () => {
     >
           <Link to='/' className='btn glass  px-1 py-1 bg-pink-900 shadow-xl shadow-red-600/20 sm:px-1 btn-lg' >
           <FaHome className='glassButton' />
-          <p className="glassButton">Back To Home</p>
+          <p className="glassButton">Back To Homee</p>
           </Link>
           </motion.div>
         </div>

@@ -24,6 +24,11 @@ const Home = () => {
         <a href = "tel:914-376-0371" className='btn glass px-1 py-1 bg-pink-900 shadow-xl shadow-red-600/20 sm:px-1 btn-md'><p className="glassButton">914 - 376 - 0371</p></a>
          <br/><br/>
         </motion.div>
+        
+        <motion.div>
+        <a href = "tel:914-376-3336" className='btn glass px-1 py-1 bg-pink-900 shadow-xl shadow-red-600/20 sm:px-1 btn-md'><p className="glassButton">914 - 376 - 3336</p></a>
+         <br/><br/>
+        </motion.div>
 
       </motion.div>
 

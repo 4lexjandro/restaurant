@@ -17,7 +17,8 @@ const NotFound = () => {
      <div className= "numbers">
     
     <main className='hours'>
-     <motion.div animate={{ scale: [2, 2, 1] }} >
+     <motion.div  animate={{ x: 0, y: 100, }}
+         transition={{ ease: "easeOut", duration: 1 }}>
 
     <div className="text-center hero-content">
         <div className="max-w-lg">

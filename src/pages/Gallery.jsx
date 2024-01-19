@@ -18,6 +18,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 
 
+
 const Frame = styled.div`
 right: 14%;
 top: 20%;
@@ -30,7 +31,9 @@ const Gallery = () => {
     <>
 
     <main className="gallerypage">
+    
       <Frame className='w-4/6 h-5/6 content-center object-cover absolute ' alt=''>
+      
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -69,9 +72,11 @@ const Gallery = () => {
         </SwiperSlide>
               
       </Swiper>
+
       </Frame>
       </main>
       <br/><br/><br/><br/><br/><br/><br/><br/>
+      
       
     </>
   );

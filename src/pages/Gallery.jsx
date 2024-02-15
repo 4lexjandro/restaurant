@@ -1,10 +1,10 @@
 import two from '../assets/two.png'
+import three from '../assets/three.jpg' //
+import four from '../assets/four.jpg' //
+import five from '../assets/five.png'//
+import six from '../assets/six.jpg'//
 import seven from '../assets/seven.png'
-import four from '../assets/four.png'
-import five from '../assets/five.png'
-import three from '../assets/three.jpg'
-import six from '../assets/six.jpg'
-import Eight from '../assets/eight.jpg'
+import Eight from '../assets/eight.jpg'//
 import styled from "styled-components";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -50,25 +50,25 @@ const Gallery = () => {
       >
 
         <SwiperSlide> 
-          <img src={two} alt=""  />
-        </SwiperSlide>
-        <SwiperSlide> 
-          <img src={seven} alt=""  />
-        </SwiperSlide>
-        <SwiperSlide> 
           <img src={four} alt=""  />
         </SwiperSlide>
         <SwiperSlide> 
-          <img src={five} alt=""  />
+          <img src={three} alt=""  />
         </SwiperSlide>
         <SwiperSlide> 
           <img src={Eight} alt=""  />
         </SwiperSlide>
         <SwiperSlide> 
+          <img src={five} alt=""  />
+        </SwiperSlide>
+        <SwiperSlide> 
           <img src={six} alt=""  />
         </SwiperSlide>
         <SwiperSlide> 
-          <img src={three} alt=""  />
+          <img src={seven} alt=""  />
+        </SwiperSlide>
+        <SwiperSlide> 
+          <img src={two} alt=""  />
         </SwiperSlide>
               
       </Swiper>

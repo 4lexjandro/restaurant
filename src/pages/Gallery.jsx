@@ -1,10 +1,10 @@
 import two from '../assets/two.png'
-import three from '../assets/three.jpg' //
-import four from '../assets/four.jpg' //
-import five from '../assets/five.png'//
-import six from '../assets/six.jpg'//
+import three from '../assets/three.jpg' 
+import four from '../assets/four.jpg' 
+import five from '../assets/five.png'
+import six from '../assets/six.jpg'
 import seven from '../assets/seven.png'
-import Eight from '../assets/eight.jpg'//
+import Eight from '../assets/eight.jpg'
 import styled from "styled-components";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,7 +14,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 
 

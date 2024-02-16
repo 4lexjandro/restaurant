@@ -7,15 +7,15 @@ import {motion} from "framer-motion"
 
 
 
-
 const NotFound = () => {
 
   
 
   return (
     <>
-     <div className= "numbers">
-    
+
+
+<div className= "numbers">
     <main className='hours'>
      <motion.div  animate={{ x: 0, y: 100, }}
          transition={{ ease: "easeOut", duration: 1 }}>
@@ -42,10 +42,18 @@ const NotFound = () => {
 
       </motion.div>
       </main>
-      </div>
+      </div> 
+
+
+     
     </>
   )
 }
 
 export default NotFound
+
+
+
+
+
 

@@ -5,6 +5,7 @@ import five from '../assets/five.png'
 import six from '../assets/six.jpg'
 import seven from '../assets/seven.png'
 import Eight from '../assets/eight.jpg'
+import Ten from '../assets/ten.jpeg'
 import styled from "styled-components";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,7 +15,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 
 
@@ -53,10 +53,19 @@ const Gallery = () => {
           <img src={four} alt=""  />
         </SwiperSlide>
         <SwiperSlide> 
+          <img src={Ten} alt=""  />
+        </SwiperSlide>
+        <SwiperSlide> 
+          <img src={seven} alt=""  />
+        </SwiperSlide>
+        <SwiperSlide> 
           <img src={three} alt=""  />
         </SwiperSlide>
         <SwiperSlide> 
           <img src={Eight} alt=""  />
+        </SwiperSlide>
+        <SwiperSlide> 
+          <img src={two} alt=""  />
         </SwiperSlide>
         <SwiperSlide> 
           <img src={five} alt=""  />
@@ -64,12 +73,7 @@ const Gallery = () => {
         <SwiperSlide> 
           <img src={six} alt=""  />
         </SwiperSlide>
-        <SwiperSlide> 
-          <img src={seven} alt=""  />
-        </SwiperSlide>
-        <SwiperSlide> 
-          <img src={two} alt=""  />
-        </SwiperSlide>
+        
               
       </Swiper>
 
